@@ -6,22 +6,3 @@ a {
   color: #333;
   text-decoration: none;
 }
-
-header {
-  display: flex;
-  justify-content: space-around;
-}
-
-header h3 {
-  font-size: 24px;
-}
-
-header nav {
-  font-size: 24px;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
