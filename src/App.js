@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import Header from './header';
-import Main from './main';
+import Header from './components/header';
+import Main from './components/main';
 
 function App() {
   const [activeTab, setActiveTab] = useState(0)

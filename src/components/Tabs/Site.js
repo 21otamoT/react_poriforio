@@ -1,4 +1,4 @@
-import '../css/tabContent.css';
+import '../../css/tabContent.css';
 
 const Sites = () => {
   return(

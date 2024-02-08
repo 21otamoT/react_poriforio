@@ -1,4 +1,4 @@
-import './css/selfintroduction.css';
+import '../css/selfintroduction.css';
 
 const Selfintroduction = () => {
   return(
