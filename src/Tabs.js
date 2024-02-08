@@ -5,7 +5,7 @@ const Tabs = ({tabs, content}) => {
 
   return (
     <>
-      <div>
+      <div className="tab-container" id="#works">
         {tabs.map((tab) => (
           <button
             key={tab.id}

@@ -1,12 +1,14 @@
 import Tabs from "./Tabs";
-import Works from "./Tabs/works";
+import Design from "./Tabs/Design";
+import Sites from "./Tabs/Site";
+import WorksApp from "./Tabs/WorksApp";
 
 const Main = () => {
   const tabs = [{id:0, name:'サイト'},
                 {id:1,name:'アプリ'},
                 {id:2,name:'デザイン'}]
 
-  const content = [<div>Site Content</div>,<div>App Content</div>,<div>Design Content</div>]
+  const content = [<Sites />,<WorksApp />,<Design />]
 
   return(
     <main>
