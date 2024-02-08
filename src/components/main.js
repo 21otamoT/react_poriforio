@@ -4,6 +4,7 @@ import Design from "./Tabs/Design";
 import Sites from "./Tabs/Site";
 import WorksApp from "./Tabs/WorksApp";
 import Skill from "./skill";
+import Contact from "./Contact";
 
 const Main = () => {
   const tabs = [{id:0, name:'サイト'},
@@ -18,6 +19,7 @@ const Main = () => {
       <Tabs tabs={tabs} content={content}/>
       <Skill />
       <Selfintroduction />
+      <Contact />
     </main>
   )
 }
