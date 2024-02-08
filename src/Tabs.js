@@ -6,13 +6,13 @@ const Tabs = ({tabs, content}) => {
   return (
     <>
       <div>
-        {tabs.map((tab, index) => (
+        {tabs.map((tab) => (
           <button
-            key={index}
-            onClick={() => setActiveTab(index)}
-            className={index === activeTab? "active" : ""}
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={tab.id === activeTab? "active" : ""}
           >
-            {tab}
+            {tab.name}
           </button>
         ))}
       </div>
