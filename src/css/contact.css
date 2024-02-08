@@ -1,3 +1,8 @@
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
 .line {
   background: linear-gradient(to bottom, #fff, #fff,#00ff7f 80%);
 }

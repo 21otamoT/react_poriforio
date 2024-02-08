@@ -6,14 +6,14 @@ const Contact = () => {
       <h2>お問い合わせ</h2>
       <div className="contact-list">
           <div>
-            <p className="lead">
-              お問い合わせは、<span className="line">メール</span>または<span className="line">SNS</span>にてお願いいたします。
+            <p>
+              お問い合わせは、<span className="line">メールまたはSNS</span>にてお願いいたします。
             </p>
             <h3>メール</h3>
             <p>yukihio76@gmail.com</p>
             <h3>SNS</h3>
             <a href="https://twitter.com/otamoT10010">
-              <img src="img/icons8-x-100.png" alt="X" />
+              <img src="img/icons8-x-100.png" alt="エックス（旧ツイッター）" />
               <p>X(旧Twitter)</p>
             </a>
           </div>
