@@ -2,7 +2,7 @@ import '../css/skill.css'
 
 const Skill = () => {
   return(
-    <section>
+    <section id='skill'>
       <div className="container">
           <h2>スキル</h2>
           <div className="skill-list">
@@ -11,7 +11,7 @@ const Skill = () => {
               <div className="skill-body">
                 <h3 className="skill-name">HTML</h3>
                 <p className="skill-text">
-                  Webページを作成するためのマークアップ言語でwebページを作成できます。
+                  Webページを作成するためのマークアップ言語でwebページを制作できます。
                 </p>
               </div>
             </div>
@@ -31,7 +31,8 @@ const Skill = () => {
               <div className="skill-body">
                 <h3 className="skill-name">JavaScript</h3>
                 <p className="skill-text">
-                  動きのあるWebページを作る事が可能です。
+                  動きのあるWebページを作る事が可能です。<br />
+                  Todoリストや教材を使ってタイピングゲームを制作いたしました。
                 </p>
               </div>
             </div>
@@ -51,6 +52,7 @@ const Skill = () => {
                 <h3 className="skill-name">React</h3>
                 <p className="skill-text">
                   JavaScriptのライブラリでユーザーインターフェースを構築できます。<br />
+                  Todoリストやメニュー計算アプリ、三目並べを制作いたしました。
                   version:18.2.0
                 </p>
               </div>
@@ -61,7 +63,7 @@ const Skill = () => {
               <h3 className="skill-name">Java</h3>
               <p className="skill-text">
                 OSに依存しない汎用性の高さが魅力です。<br />
-                基礎を習得し教材を使って民宿予約アプリを作成いたしました。<br />
+                基礎を習得し教材を使って民宿予約アプリを制作いたしました。<br />
                 version:Java 21
               </p>
             </div>
@@ -72,7 +74,7 @@ const Skill = () => {
               <h3 className="skill-name">SpringBoot</h3>
               <p className="skill-text">
                 Javaのフレームワークです。<br />
-                基礎を習得し教材を使って民宿予約アプリを作成いたしました。<br />
+                基礎を習得し教材を使って民宿予約アプリを制作いたしました。<br />
                 version:3.2.1
               </p>
             </div>
@@ -84,7 +86,7 @@ const Skill = () => {
               <p className="skill-text">
                 動的なWebページを作成するための機能を備えた言語です。<br />
                 PHPの基礎を習得し教材を使って大学のホームページをWordPress化したり、
-                教材を使って商品管理アプリを作成いたしました。<br />
+                教材を使って商品管理アプリを制作いたしました。<br />
                 version:PHP 7.2.24
                 </p> 
             </div>

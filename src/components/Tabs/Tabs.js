@@ -4,7 +4,7 @@ const Tabs = ({tabs, content}) => {
   const [activeTab, setActiveTab] = useState(0)
 
   return (
-      <section className="container" id="#works">
+      <section className="container" id="works">
         <h2>作品</h2>
         <div className="tab-container">
             {tabs.map((tab) => (
