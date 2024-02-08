@@ -1,3 +1,4 @@
+import Selfintroduction from "./Self-introduction";
 import Tabs from "./Tabs";
 import Design from "./Tabs/Design";
 import Sites from "./Tabs/Site";
@@ -14,6 +15,7 @@ const Main = () => {
     <main>
       <div className="img"></div>
       <Tabs tabs={tabs} content={content}/>
+      <Selfintroduction />
     </main>
   )
 }

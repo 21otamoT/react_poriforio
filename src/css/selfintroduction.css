@@ -1,0 +1,6 @@
+.profile::before {
+  content: '';
+  display: inline-block;
+  width: 30%;
+  background-color: #40e0d0;
+}
