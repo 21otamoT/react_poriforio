@@ -5,11 +5,10 @@ import Main from './components/main';
 import Footer from './components/Footer';
 
 function App() {
-  const [activeTab, setActiveTab] = useState(0)
 
   return (
     <>
-      <Header onTabChange={setActiveTab}/>
+      <Header/>
       <Main/>
       <Footer/>
     </>
