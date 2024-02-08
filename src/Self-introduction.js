@@ -2,8 +2,8 @@ import './css/selfintroduction.css';
 
 const Selfintroduction = () => {
   return(
-    <div className="container">
-      <div className="profile">
+    <section className="profile">
+      <div className="container">
         <h2 class="title">自己紹介</h2>
         <div class="profile-body">
           <p>
@@ -16,7 +16,7 @@ const Selfintroduction = () => {
         
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 export default Selfintroduction

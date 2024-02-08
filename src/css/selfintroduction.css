@@ -1,6 +1,22 @@
+.profile {
+  position: relative;
+  width: 1240px;
+  margin: 0 auto;
+}
+
 .profile::before {
   content: '';
   display: inline-block;
   width: 30%;
-  background-color: #40e0d0;
+  height: 100%;
+  background-color: #00ff7f;
+  position: absolute;
+  inset: 0 auto auto 0;
+  z-index: -1;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+.profile .container {
+  width: 80%;
+  margin: 0 auto;
 }
