@@ -1,13 +1,13 @@
 import Selfintroduction from "./Self-introduction";
-import Tabs from "./Tabs";
+import Tabs from "./Tabs/Tabs";
 import Design from "./Tabs/Design";
 import Sites from "./Tabs/Site";
 import WorksApp from "./Tabs/WorksApp";
 
 const Main = () => {
   const tabs = [{id:0, name:'サイト'},
-                {id:1,name:'アプリ'},
-                {id:2,name:'デザイン'}]
+                {id:1, name:'アプリ'},
+                {id:2, name:'デザイン'}]
 
   const content = [<Sites />,<WorksApp />,<Design />]
 

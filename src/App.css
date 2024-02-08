@@ -43,11 +43,15 @@ nav ul {
 .tab-container button {
   flex: 1 1 0;
   padding: 16px 0;
-  background-color: #e0ffff;
-  border: 1px solid #40e0d0;
+  background-color: #90ee90;
+  border: 1px solid #00ff7f;
   border-radius: 8px 8px 0 0 ;
+  color: #fff;
+  font-size: 16px;
 }
 
 .tab-container button.active {
-  background-color: #40e0d0;
+  background-color: #00ff7f;
+  font-size: 24px;
+  font-weight: bold;
 }

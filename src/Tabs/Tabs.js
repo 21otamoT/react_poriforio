@@ -5,7 +5,7 @@ const Tabs = ({tabs, content}) => {
 
   return (
     <>
-      <div className="tab-container" id="#works">
+      <section className="tab-container" id="#works">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -15,7 +15,7 @@ const Tabs = ({tabs, content}) => {
             {tab.name}
           </button>
         ))}
-      </div>
+      </section>
       <div>{content[activeTab]}</div>
     </>
   )
