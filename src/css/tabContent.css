@@ -13,6 +13,11 @@
   margin: 8px auto 0;
   border-radius: 8px;
   box-shadow: 4px 4px 8px #aaa;
+  transition: transform .4s ease;
+}
+
+.works-item:hover {
+  transform: scale(1.2,1.2);
 }
 
 .works-item-row-end {
@@ -27,4 +32,12 @@
 .works-img img {
   width: 100%;
   border-radius: 8px;
+}
+
+.works-name {
+  margin: 16px auto 0;
+}
+
+.works-info {
+  margin: 16px auto 0;
 }
