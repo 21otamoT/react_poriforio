@@ -9,7 +9,7 @@
   display: inline-block;
   width: 30%;
   height: 100%;
-  background-color: #00ff7f;
+  background-color: #00bfff;
   position: absolute;
   inset: 0 auto auto 0;
   z-index: -1;
@@ -21,7 +21,11 @@
   margin: 0 auto;
 }
 
-.title {
+.self-title {
   padding: 0;
   border: none;
+}
+
+.profile-body > p {
+  margin: 0;
 }

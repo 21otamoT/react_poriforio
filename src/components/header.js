@@ -1,6 +1,10 @@
 
 
 const Menu = () => {
+  const handleClick = e => {
+    e.preventDefault()
+  }
+
   return(
     <>
       <li><a href="#works">作品<br/>Works</a></li>
@@ -14,9 +18,9 @@ const Menu = () => {
 const Header = () => {
   return(
     <header>
-        <h3><a href="#">HOME</a></h3>
+        <h1 className="home"><a href="#">HOME</a></h1>
         <nav>
-          <ul>
+          <ul className="header-menu">
             <Menu/>
           </ul>
         </nav>
