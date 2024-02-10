@@ -1,0 +1,23 @@
+.article {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.img-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+h3 {
+  border-left: 3px solid #00ff70;
+  padding: 0 0 0 8px;
+  margin: 24px 0 0;
+}
+
+p {
+  margin: 0 0 0 16px;
+}
