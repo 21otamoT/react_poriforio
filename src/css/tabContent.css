@@ -9,9 +9,10 @@
 
 .works-item {
   width: 30%;
-  border: 1px solid #00ff7f;
+  border: 1px solid #00bfff;
   margin: 8px auto 0;
   border-radius: 8px;
+  box-shadow: 4px 4px 8px #aaa;
 }
 
 .works-item-row-end {

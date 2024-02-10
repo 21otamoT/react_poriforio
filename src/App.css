@@ -64,7 +64,9 @@ h2 {
   border: 1px solid #00bfff;
   border-radius: 8px 8px 0 0 ;
   color: #00bfff;
+  background-color: #fff;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .tab-container button.active {

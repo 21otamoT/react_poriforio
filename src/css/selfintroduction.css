@@ -25,6 +25,10 @@
   border: none;
 }
 
+.profile-body {
+  background-color: rgba(251, 251, 253, 40%);
+}
+
 .profile-body > p {
   margin: 0;
 }

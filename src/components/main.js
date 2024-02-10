@@ -6,12 +6,13 @@ import WorksApp from "./Tabs/WorksApp";
 import Skill from "./skill";
 import Contact from "./Contact";
 
-const Main = () => {
+const Main = () => { 
+
   const tabs = [{id:0, name:'サイト'},
                 {id:1, name:'アプリ'},
                 {id:2, name:'デザイン'}]
 
-  const content = [<Sites />,<WorksApp />,<Design />]
+  const content = [<Sites/>,<WorksApp />,<Design />]
 
   return(
     <main>
