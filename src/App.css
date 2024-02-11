@@ -16,8 +16,16 @@ header {
   translate:50% 0;
 }
 
+.home {
+  width: 10%;
+}
+
 .home a {
   color: #333;
+}
+
+.home img {
+  width: 100%;
 }
 
 header nav {
@@ -34,17 +42,16 @@ nav ul {
   color: #333;
 }
 
-.hmbtn {
-  display: none;
-}
-
-.hmenu {
-  display: none;
-}
-
 .hmenu ul {
   position: fixed;
-  inset: -100vh auto auto 40%;
+  inset: -100vh auto auto 20%;
+  transition: inset .4s ease-in;
+  font-size: 32px;
+  padding: 0;
+}
+
+.hmenu ul li a {
+  color: #fff;
 }
 
 .img {
@@ -101,6 +108,7 @@ header {
 }
 
 .home {
+  width: 30%;
   margin: 16px;
 }
 
@@ -124,13 +132,17 @@ header nav {
 .hmenuactive ul {
   transition: inset .4s ease-in;
   position: fixed;
-  inset: 400% auto auto 40%;
+  inset: 200% auto auto 30%;
   padding: 0;
   font-size: 32px;
 }
 
 .hmenuactive ul li a {
   color: #fff;
+}
+
+.hmenuactive ul li+li {
+  margin: 16px 0 0;
 }
 
 .hmbtn {
@@ -140,7 +152,7 @@ header nav {
   place-items: center;
   background-color: #00bfff;
   position: fixed;
-  inset: auto auto -740% 45%;
+  inset: auto auto -370% 45%;
   border-radius: 50%;
   z-index: 3;
 }

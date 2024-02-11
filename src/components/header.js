@@ -1,6 +1,5 @@
 import { useState } from "react"
 
-
 const Menu = () => {
 
   return(
@@ -22,10 +21,30 @@ const Hmbarger = () => {
   return (
       <div className={"hmenu"+active}>
         <ul>
-          <li><a href="#works">作品</a></li>
-          <li><a href="#skill">スキル</a></li>
-          <li><a href="#about">自己紹介</a></li>
-          <li><a href="#contact">お問い合わせ</a></li>
+          <li>
+            <span className="material-symbols-outlined">
+              computer
+            </span>
+            <a href="#works">作品</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined">
+              flutter
+            </span>
+            <a href="#skill">スキル</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined">
+              person
+            </span>
+            <a href="#about">自己紹介</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined">
+            mail
+            </span>
+            <a href="#contact">お問い合わせ</a>
+          </li>
         </ul>
         <div className='hmbtn' onClick={handleClick}>
         <span className={active}></span>
@@ -40,7 +59,7 @@ const Hmbarger = () => {
 const Header = () => {
   return(
     <header>
-        <h1 className="home"><a href="#">HOME</a></h1>
+        <h1 className="home"><a href="#"><img src="../img/yukihiro.png" /></a></h1>
         <nav>
           <ul className="header-menu">
             <Menu/>
