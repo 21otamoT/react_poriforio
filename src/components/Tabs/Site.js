@@ -17,12 +17,12 @@ const Sites = () => {
             <a onClick={() => handleClick(<Work1 />)} class="works-item" > 
               <div className="works-img"><img src="img/works/html1.png" alt="html1" /></div>
               <p className="works-name">コーポレートサイト</p>
-              <p className="works-info">HTML/CSS/JavaScript/jQuery/レスポンシブ対応</p>
+              <p className="works-info">{`HTML/CSS/\nJavaScript/jQuery/`}</p>
             </a>
             <a onClick={() => handleClick(<Work2 />)} className="works-item">
               <div className="works-img"><img src="img/works/html2.png" alt="html2" /></div>
               <p className="works-name">プロフィールサイト</p>
-              <p className="works-info">HTML/CSS/JavaScript/jQuery</p>
+              <p className="works-info">{`HTML/CSS/\nJavaScript/jQuery`}</p>
             </a>
             <a onClick={() => handleClick(<Work3 />)} className="works-item">
               <div className="works-img"><img src="img/works/wordpress1.png" alt="WordPress" /></div>

@@ -34,6 +34,19 @@ nav ul {
   color: #333;
 }
 
+.hmbtn {
+  display: none;
+}
+
+.hmenu {
+  display: none;
+}
+
+.hmenu ul {
+  position: fixed;
+  inset: -100vh auto auto 40%;
+}
+
 .img {
   width: 100%;
   max-width: 1240px;
@@ -80,4 +93,85 @@ h2 {
 .copy {
   text-align: center;
   font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+header {
+  justify-content: flex-start;
+}
+
+.home {
+  margin: 16px;
+}
+
+header nav {
+  display: none;
+}
+
+/* ハンバーガーメニュー */
+
+.hmenuactive {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  inset: 0 auto auto 0;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 166, 255, 40%);
+}
+
+.hmenuactive ul {
+  transition: inset .4s ease-in;
+  position: fixed;
+  inset: 400% auto auto 40%;
+  padding: 0;
+  font-size: 32px;
+}
+
+.hmenuactive ul li a {
+  color: #fff;
+}
+
+.hmbtn {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  background-color: #00bfff;
+  position: fixed;
+  inset: auto auto -740% 45%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.hmbtn span {
+  background-color: #fff;
+  height: 3px;
+  width: 70%;
+  grid-area: 1/1/-1/-1;
+  border-radius: 16px;
+  transition: transform .4s ease-in, opacity .4s ease-in;
+}
+
+.hmbtn span:nth-child(1) {
+  transform: translateY(-10px);
+}
+
+.hmbtn span:nth-child(3) {
+  transform: translateY(10px);
+}
+
+.hmbtn .active:nth-child(1) {
+  transform: translateY(0) rotate(135deg);
+}
+
+.hmbtn .active:nth-child(2) {
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.hmbtn .active:nth-child(3) {
+  transform: translateY(0) rotate(-135deg);
+}
 }

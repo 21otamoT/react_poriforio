@@ -41,3 +41,17 @@
 .works-info {
   margin: 16px auto 0;
 }
+
+@media screen and (max-width:768px) {
+  .tab-contents {
+    gap: 12px;
+  }
+
+  .works-item {
+    width: 40%;
+  }
+
+  .works-item-row-end {
+    margin: 0 auto 0;
+  }
+}

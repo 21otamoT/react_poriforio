@@ -21,7 +21,7 @@ const handleClick = work => {
       <a onClick={() => handleClick(<Travel />)} class="works-item">
         <div className="works-img"><img src="img/works/hirosetravel.png" alt="民宿予約アプリ" /></div>
         <p className="works-name">民宿予約アプリ</p>
-        <p className="works-info">HTML/CSS/JavaScript/SpringBoot/SQL</p>
+        <p className="works-info">{`HTML/CSS/\nJavaScript/SpringBoot\n/SQL`}</p>
       </a>
       <a onClick={() => handleClick(<Mart />)} className="works-item">
         <div className="works-img"><img src="img/works/hirose_mart.png" alt="商品管理アプリ" /></div>

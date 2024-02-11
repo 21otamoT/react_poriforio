@@ -1,3 +1,4 @@
+import { useState } from "react"
 
 
 const Menu = () => {
@@ -12,6 +13,30 @@ const Menu = () => {
   )
 }
 
+const Hmbarger = () => {
+  const [active, setActive] = useState('')
+
+  const handleClick = () => {
+    active === '' ? setActive('active') : setActive('')
+  }
+  return (
+      <div className={"hmenu"+active}>
+        <ul>
+          <li><a href="#works">作品</a></li>
+          <li><a href="#skill">スキル</a></li>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+        <div className='hmbtn' onClick={handleClick}>
+        <span className={active}></span>
+        <span className={active}></span>
+        <span className={active}></span>
+        </div>
+      </div>
+      
+  )
+}
+
 const Header = () => {
   return(
     <header>
@@ -21,6 +46,7 @@ const Header = () => {
             <Menu/>
           </ul>
         </nav>
+        <Hmbarger />
     </header>
   )
 }

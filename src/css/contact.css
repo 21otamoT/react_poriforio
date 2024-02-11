@@ -1,8 +1,23 @@
 .contact-list {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.contact-list div > h3 {
+  margin-left: 0;
 }
 
 .line {
   background: linear-gradient(to bottom, #fff, #fff,#00bfff 80%);
+}
+
+@media screen and (max-width:768px) {
+  .contact-list {
+    flex-direction: column;
+  }
+
+  .contact-list div {
+    width: 100%;
+  }
 }
