@@ -31,6 +31,9 @@ const Work2 = () => {
               </div>
             </div>
             <div className='works'>
+              <span class="material-symbols-outlined">
+                arrow_upward
+              </span>
               <a href='#works'>作品一覧へ</a>
             </div>
         </article>

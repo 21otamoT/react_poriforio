@@ -96,10 +96,11 @@ h2 {
 }
 
 .tab-container button.active {
-  background-image: linear-gradient(45deg,#0000cd 1%, #00bfff,#87cefa);
+  background-image: linear-gradient(45deg,#87ceed, #00bfff,#87cefa);
   font-size: 24px;
   font-weight: bold;
   color: #fff;
+  border-bottom: 3px solid #0000cd;
 }
 
 .copy {

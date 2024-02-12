@@ -2,6 +2,7 @@
   position: relative;
   max-width: 960px;
   margin: 0 auto;
+  padding:0 0 56px;
   background-image: url('../../public/img/About.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -22,11 +23,7 @@
 
 .profile .container {
   width: 80%;
-}
-
-.self-title {
-  padding: 0;
-  border: none;
+  margin: 0 auto;
 }
 
 .profile-body {
