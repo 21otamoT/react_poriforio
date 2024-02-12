@@ -2,6 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 24px 0;
+  background-image: url('../../public/img/Skils.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .skill-item {
