@@ -54,12 +54,14 @@ nav ul {
   color: #fff;
 }
 
-.img {
+.main-visual {
   width: 100%;
   max-width: 1240px;
-  height: 100vh;
   margin: 0 auto;
-  background-color: #aaa;
+}
+
+.main-visual img {
+  width: 100%;
 }
 
 main {

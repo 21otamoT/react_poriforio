@@ -16,7 +16,7 @@ const Main = () => {
 
   return(
     <main>
-      <div className="img"></div>
+      <div className="main-visual"><img src="../img/mainvisual.png" /></div>
       <Tabs tabs={tabs} content={content}/>
       <Skill />
       <Selfintroduction />
