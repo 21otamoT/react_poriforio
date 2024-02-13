@@ -1,13 +1,58 @@
 import { useState } from "react"
+import { Link } from "react-scroll"
 
 const Menu = () => {
 
   return(
     <>
-      <li><a href="#works">作品<br/>Works</a></li>
-      <li><a href="#skill">スキル<br/>Skil</a></li>
-      <li><a href="#about">自己紹介<br/>Self-introduction</a></li>
-      <li><a href="#contact">お問い合わせ<br/>Contact</a></li>
+      <li>
+        <Link
+          activeClass="active"
+          to="works"
+          spy={true}
+          smooth={true}
+          offset={-70} // スクロール時のオフセット調整
+          duration={500} // スクロールにかかる時間（ミリ秒）
+        >
+          作品<br/>Works
+        </Link>
+      </li>
+      <li>
+        <Link 
+          activeClass="active"
+          to="skill"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          スキル<br/>Skil
+        </Link>
+      </li>
+      <li>
+        <Link 
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          自己紹介<br/>Self-introduction
+        </Link>
+      </li>
+      <li>
+      <Link 
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          お問い合わせ<br/>Contact
+        </Link>
+      </li>
     </>
   )
 }
