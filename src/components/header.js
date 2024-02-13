@@ -43,15 +43,15 @@ const Menu = () => {
       </li>
       <li>
       <Link 
-          activeClass="active"
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          お問い合わせ<br/>Contact
-        </Link>
+        activeClass="active"
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        お問い合わせ<br/>Contact
+      </Link>
       </li>
     </>
   )

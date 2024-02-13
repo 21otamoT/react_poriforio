@@ -8,6 +8,7 @@ import Menu from '../Works/App/react_menu_app';
 import ReactTodo from '../Works/App/react_todo';
 import ReactThree from '../Works/App/react_three';
 import Postal from '../Works/App/js_postal';
+import Order from '../Works/App/spring_order_app';
 
 const WorksApp = () => {
 const [selectWork, setSelectWork] = useState(null)
@@ -22,6 +23,11 @@ const handleClick = work => {
         <div className="works-img"><img src="img/works/hirosetravel.png" alt="民宿予約アプリ" /></div>
         <p className="works-name">民宿予約アプリ</p>
         <p className="works-info">{`HTML/CSS/\nJavaScript/SpringBoot\n/SQL`}</p>
+      </a>
+      <a onClick={() => handleClick(<Order />)} className='works-item'>
+        <div className="works-img"><img src="img/works/Order.png" alt="注文アプリ" /></div>
+        <p className="works-name">注文アプリ</p>
+        <p className="works-info">{`html/css/JavaScript\nSpringBoot/SQL`}</p>
       </a>
       <a onClick={() => handleClick(<Mart />)} className="works-item">
         <div className="works-img"><img src="img/works/hirose_mart.png" alt="商品管理アプリ" /></div>
@@ -48,12 +54,12 @@ const handleClick = work => {
         <p className="works-name">ToDoリストアプリ</p>
         <p className="works-info">css/React</p>
       </a>
-      <a onClick={() => handleClick(<ReactThree />)} className="works-item works-item-row-end">
+      <a onClick={() => handleClick(<ReactThree />)} className="works-item">
         <div className="works-img"><img src="img/works/react_three_pronged.png" alt="三目並べ" /></div>
         <p className="works-name">三目並べ</p>
         <p className="works-info">css/React</p>
       </a>
-      <a onClick={() => handleClick(<Postal />)} className="works-item works-item-row-end">
+      <a onClick={() => handleClick(<Postal />)} className="works-item">
         <div className="works-img"><img src="img/works/js-postal-code.png" alt="住所検索アプリ" /></div>
         <p className="works-name">住所検索アプリ</p>
         <p className="works-info">css/JavaScript</p>
