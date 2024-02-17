@@ -67,28 +67,63 @@ const Hmbarger = () => {
       <div className={"hmenu"+active}>
         <ul>
           <li>
-            <span className="material-symbols-outlined">
-              computer
-            </span>
-            <a href="#works">作品</a>
+            <Link
+              activeClass="active"
+              to="works"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              <span className="material-symbols-outlined">
+                computer
+              </span>
+              <span>作品</span>
+            </Link>
           </li>
           <li>
+            <Link
+              activeClass="active"
+              to="skill"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
             <span class="material-symbols-outlined">
               flutter
             </span>
-            <a href="#skill">スキル</a>
+            <span>スキル</span>
+            </Link>
           </li>
           <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
             <span class="material-symbols-outlined">
               person
             </span>
-            <a href="#about">自己紹介</a>
+            <span>自己紹介</span>
+            </Link>
           </li>
           <li>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >
             <span class="material-symbols-outlined">
             mail
             </span>
-            <a href="#contact">お問い合わせ</a>
+            <span>お問い合わせ</span>
+            </Link>
           </li>
         </ul>
         <div className='hmbtn' onClick={handleClick}>
