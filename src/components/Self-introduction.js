@@ -2,7 +2,7 @@ import '../css/selfintroduction.css';
 
 const Selfintroduction = () => {
   return(
-    <section className="profile" id='about'>
+    <section className="profile container" id='about'>
       <h2 className='self-title'>自己紹介</h2>
       <div className="container">
         <div className="profile-body">

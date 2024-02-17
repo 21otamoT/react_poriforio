@@ -1,7 +1,6 @@
 .profile {
   position: relative;
   max-width: 960px;
-  margin: 0 auto;
   padding:0 0 56px;
   background-image: url('../../public/img/About.png');
   background-attachment: fixed;
