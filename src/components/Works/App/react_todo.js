@@ -10,7 +10,7 @@ const ReactTodo = () => {
               <img src="../img/works/details/react_todo_app.png" alt="ToDoアプリ" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://21otamot.github.io/react_todo_app/" target="_blank" rel="noopener">https://21otamot.github.io/react_todo_app/</a></p>
+            <p><a href="https://21otamot.github.io/react_todo_app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/react_todo_app/</a></p>
             <h3>使用技術</h3>
             <p>CSS/React</p>
             <h3>開発の経緯・ストーリー</h3>

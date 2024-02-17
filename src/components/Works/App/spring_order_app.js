@@ -10,7 +10,7 @@ const Order = () => {
               <img src="./img/works/details/spring_order.png" alt="注文アプリ" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://hirosekafe-order-2372cad56364.herokuapp.com/" target="_blank" rel="noopener">https://hirosekafe-order-2372cad56364.herokuapp.com/</a></p>
+            <p><a href="https://hirosekafe-order-1bf0315d9e13.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://hirosekafe-order-1bf0315d9e13.herokuapp.com/</a></p>
             <h3>使用技術</h3>
             <p>html/CSS/JavaScript/SpringBoot/SQL/Heroku</p>
             <h3>開発の経緯・ストーリー</h3>

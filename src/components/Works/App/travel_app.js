@@ -10,7 +10,7 @@ const Travel = () => {
               <img src="./img/works/details/toravel_long.png" alt="民宿予約アプリ" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://hirose-travel-7e6baef05a23.herokuapp.com/" target="_blank" rel="noopener">https://hirose-travel-7e6baef05a23.herokuapp.com/</a></p>
+            <p><a href="https://hirose-travel-7e6baef05a23.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://hirose-travel-7e6baef05a23.herokuapp.com/</a></p>
             <h3>使用技術</h3>
             <p>html/CSS/JavaScript/SpringBoot/SQL/Heroku</p>
             <h3>開発の経緯・ストーリー</h3>

@@ -10,7 +10,7 @@ const Postal = () => {
               <img src="../img/works/js-postal-code.png" alt="住所検索アプリ" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://21otamot.github.io/postal-code-app/" target="_blank" rel="noopener">https://21otamot.github.io/postal-code-app/</a></p>
+            <p><a href="https://21otamot.github.io/postal-code-app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/postal-code-app/</a></p>
             <h3>使用技術</h3>
             <p>html/CSS/JavaScript/</p>
             <h3>開発の経緯・ストーリー</h3>

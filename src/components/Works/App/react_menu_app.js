@@ -10,7 +10,7 @@ const Menu = () => {
               <img src="./img/works/details/menu_app_long.png" alt="メニュー計算アプリ" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://21otamot.github.io/react_menu_app/" target="_blank" rel="noopener">https://21otamot.github.io/typing_game/</a></p>
+            <p><a href="https://21otamot.github.io/react_menu_app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/typing_game/</a></p>
             <h3>使用技術</h3>
             <p>CSS/React</p>
             <h3>開発の経緯・ストーリー</h3>

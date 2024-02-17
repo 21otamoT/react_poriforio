@@ -10,7 +10,7 @@ const Mart = () => {
               <img src="../img/works/hirose_mart.png" alt="商品管理アプリ" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://hirose-mart-21a6b3410b59.herokuapp.com/" target="_blank" rel="noopener">https://hirose-mart-21a6b3410b59.herokuapp.com/</a></p>
+            <p><a href="https://hirose-mart-21a6b3410b59.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://hirose-mart-21a6b3410b59.herokuapp.com/</a></p>
             <h3>使用技術</h3>
             <p>html/CSS/PHP/SQL/Heroku</p>
             <h3>開発の経緯・ストーリー</h3>

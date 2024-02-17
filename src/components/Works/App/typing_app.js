@@ -10,7 +10,7 @@ const Typing = () => {
               <img src="./img/works/details/typing_game.png" alt="タイピングゲーム" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://21otamot.github.io/typing_game/" target="_blank" rel="noopener">https://21otamot.github.io/typing_game/</a></p>
+            <p><a href="https://21otamot.github.io/typing_game/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/typing_game/</a></p>
             <h3>使用技術</h3>
             <p>HTML/CSS/JavaScript</p>
             <h3>開発の経緯・ストーリー</h3>
