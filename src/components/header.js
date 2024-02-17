@@ -67,6 +67,9 @@ const Hmbarger = () => {
       <div className={"hmenu"+active}>
         <ul>
           <li>
+            <span className="material-symbols-outlined">
+              computer
+            </span>
             <Link
               activeClass="active"
               to="works"
@@ -74,13 +77,13 @@ const Hmbarger = () => {
               smooth={true}
               offset={-70}
               duration={500}>
-              <span className="material-symbols-outlined">
-                computer
-              </span>
-              <span>作品</span>
+              作品
             </Link>
           </li>
           <li>
+            <span class="material-symbols-outlined">
+              flutter
+            </span>
             <Link
               activeClass="active"
               to="skill"
@@ -89,13 +92,13 @@ const Hmbarger = () => {
               offset={-70}
               duration={500}
             >
-            <span class="material-symbols-outlined">
-              flutter
-            </span>
-            <span>スキル</span>
+            スキル
             </Link>
           </li>
           <li>
+            <span class="material-symbols-outlined">
+              person
+            </span>
             <Link
               activeClass="active"
               to="about"
@@ -104,13 +107,13 @@ const Hmbarger = () => {
               offset={-70}
               duration={500}
             >
-            <span class="material-symbols-outlined">
-              person
-            </span>
-            <span>自己紹介</span>
+              自己紹介
             </Link>
           </li>
           <li>
+            <span class="material-symbols-outlined">
+              mail
+            </span>
             <Link
               activeClass="active"
               to="contact"
@@ -118,11 +121,8 @@ const Hmbarger = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              >
-            <span class="material-symbols-outlined">
-            mail
-            </span>
-            <span>お問い合わせ</span>
+            >
+              お問い合わせ
             </Link>
           </li>
         </ul>
