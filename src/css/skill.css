@@ -4,8 +4,8 @@
   gap: 24px 0;
   background-image: url('../../public/img/Skils.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: 50%;
+  background-position: center center;
   background-attachment: fixed;
 }
 
@@ -29,6 +29,10 @@
 }
 
 @media screen and (max-width:768px) {
+  .skill-list {
+    background-size: 100%;
+  }
+
   .skill-item {
     width: 100%;
   }

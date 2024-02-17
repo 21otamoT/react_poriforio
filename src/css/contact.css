@@ -9,7 +9,8 @@
   background-size:60%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-size: 20%;
+  background-position:30% center;
 }
 
 .contact-list div > h3 {
@@ -27,5 +28,6 @@
 
   .contact-list div {
     width: 100%;
+    background-size: 100%;
   }
 }
