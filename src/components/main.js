@@ -5,6 +5,7 @@ import Sites from "./Tabs/Site";
 import WorksApp from "./Tabs/WorksApp";
 import Skill from "./skill";
 import Contact from "./Contact";
+import PreloadImage from "./PreloadImage";
 
 const Main = () => { 
 
@@ -16,6 +17,7 @@ const Main = () => {
 
   return(
     <main>
+      <PreloadImage src="../img/mainvisual.png"/>
       <div className="main-visual"><img src="../img/mainvisual.png" /></div>
       <Tabs tabs={tabs} content={content}/>
       <Skill />
