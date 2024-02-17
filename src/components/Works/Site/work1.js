@@ -14,7 +14,7 @@ const Work1 = () => {
                 5ページから構成される企業様のHPです。
             </p>
             <h3>URL</h3>
-            <p><a href="https://21otamot.github.io/socialtech/" target="_blank" rel="noopener">  https://21otamot.github.io/socialtech/</a></p>
+            <p><a href="https://21otamot.github.io/socialtech/" target="_blank" rel="noopener noreferrer">  https://21otamot.github.io/socialtech/</a></p>
             <h3>担当</h3>
             <p>  コーディング</p>
             <h3>サイトの目的</h3>

@@ -13,7 +13,7 @@ const Work2 = () => {
                   カメラマンのお客様のプロフィールサイトになります。
                 </p>
                 <h3>URL</h3>
-                <p><a href="https://21otamot.github.io/jQuery_profile/" target="_blank" rel="noopener">https://21otamot.github.io/jQueryMyprofile/</a></p>
+                <p><a href="https://21otamot.github.io/jQuery_profile/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/jQueryMyprofile/</a></p>
                 <h3>担当</h3>
                 <p>コーディング</p>
                 <h3>サイトの目的</h3>
