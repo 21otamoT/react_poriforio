@@ -32,7 +32,16 @@ const Skill = () => {
                 <h3 className="skill-name">JavaScript</h3>
                 <p className="skill-text">
                   動きのあるWebページを作る事が可能です。<br />
-                  Todoリストや教材を使ってタイピングゲームを制作いたしました。
+                  Todoリストの制作や教材を使ってタイピングゲームを作成いたしました。
+                </p>
+              </div>
+            </div>
+            <div className="skill-item">
+              <p className="skill-img"><a target="_blank" href="https://icons8.com"><img src="img/skills/Typescript.svg" alt="Typescript" /></a></p>
+              <div className="skill-body">
+                <h3 className="skill-name">Typescript</h3>
+                <p className="skill-text">
+                  基礎を習得し、ToDoアプリを制作いたしました。
                 </p>
               </div>
             </div>
