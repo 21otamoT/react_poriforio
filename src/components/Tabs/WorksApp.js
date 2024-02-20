@@ -43,10 +43,10 @@ const handleClick = work => {
       </a>
       <a onClick={() => handleClick(<Todo />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/todo_app.png"/>
-        <div className="works-img"><img src="img/works/todo_app.png" alt="ToDoアプリ" /></div>
+        <PreloadImage src="img/works/ToDoリスト - 21otamot.github.io.png"/>
+        <div className="works-img"><img src="img/works/ToDoリスト - 21otamot.github.io.png" alt="ToDoアプリ" /></div>
         <p className="works-name">ToDoアプリ</p>
-        <p className="works-info">HTML/CSS/JavaScript</p>
+        <p className="works-info">HTML/CSS/Typescript</p>
       </a>
       <a onClick={() => handleClick(<Typing />)} className="works-item">
         {/* 画像をプリロード */}

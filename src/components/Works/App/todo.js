@@ -7,19 +7,19 @@ const Todo = () => {
           <h2 className='work-title'>ToDoアプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="./img/works/details/todo_app.png" alt="ToDoアプリ" />
+              <img src="../img/works/details/ToDoリスト - 21otamot.github.io.png" alt="ToDoアプリ" />
             </p>
             <h3>URL</h3>
-            <p><a href="https://21otamot.github.io/ToDO_app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/ToDO_app/</a></p>
+            <p><a href="https://21otamot.github.io/ts-ToDo/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/ts-ToDo/</a></p>
             <h3>使用技術</h3>
-            <p>HTML/CSS/JavaScript</p>
+            <p>HTML/CSS/Typescript</p>
             <h3>開発の経緯・ストーリー</h3>
             <p>
-              JavaScriptの学習の中で学んだ基礎のアウトプットのために制作いたしました。
+              Typescriptの学習の中で学んだ基礎のアウトプットのために制作いたしました。
             </p>
             <h3>工夫や苦労した点</h3>
             <p>
-              ページをリロードしても登録したリストが消えないようにしたことと、通常の関数とアロー関数を実装したので関数の巻き上げができず当時はエラーの解決に苦労しました。
+              ページをリロードしても登録したリストが消えないようにしたことと、データ型の不一致によるエラーの解決に苦労しました。
             </p>
           </div>
         </div>
