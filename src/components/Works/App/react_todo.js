@@ -7,7 +7,7 @@ const ReactTodo = () => {
           <h2 className='work-title'>ToDoアプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="../img/works/details/react_todo_app.png" alt="ToDoアプリ" />
+              <img src="../img/works/details/react-todo.png" alt="ToDoアプリ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://21otamot.github.io/react_todo_app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/react_todo_app/</a></p>

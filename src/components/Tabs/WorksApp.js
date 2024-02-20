@@ -64,8 +64,8 @@ const handleClick = work => {
       </a>
       <a onClick={() => handleClick(<ReactTodo />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/react_todo_app.png"/>
-        <div className="works-img"><img src="img/works/react_todo_app.png" alt="ToDoリストアプリ" /></div>
+        <PreloadImage src="img/works/react-todo.png"/>
+        <div className="works-img"><img src="img/works/react-todo.png" alt="ToDoリストアプリ" /></div>
         <p className="works-name">ToDoリストアプリ</p>
         <p className="works-info">css/React</p>
       </a>
