@@ -14,7 +14,7 @@ const Order = () => {
             <h3>使用技術</h3>
             <p>html/CSS/JavaScript/SpringBoot/SQL/Heroku</p>
             <h3>要件定義書</h3>
-            <p><a href='https://www.figma.com/file/ObmoyGhwGDNeZxI37qqo4i/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=shHQZGb5ZHYJLKlE-1' target='_blank' rel='noopener noreferrer'>https://www.figma.com/file/ObmoyGhwGDNeZxI37qqo4i/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=shHQZGb5ZHYJLKlE-1</a></p>
+            <p><a href='https://www.figma.com/file/ObmoyGhwGDNeZxI37qqo4i/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=shHQZGb5ZHYJLKlE-1' target='_blank' rel='noopener noreferrer'>https://www.figma.com/</a></p>
             <h3>開発の経緯・ストーリー</h3>
             <p>
               外食をした時に店員さんが注文をメモしているのを見て、タブレットでできたらいいなと思い制作いたしました。<br/>

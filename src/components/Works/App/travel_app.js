@@ -13,6 +13,8 @@ const Travel = () => {
             <p><a href="https://hirose-travel-7e6baef05a23.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://hirose-travel-7e6baef05a23.herokuapp.com/</a></p>
             <h3>使用技術</h3>
             <p>html/CSS/JavaScript/SpringBoot/SQL/Heroku</p>
+            <h3>要件定義書</h3>
+            <p><a href='https://www.figma.com/file/afHtlSdXOS7DnGiZN8JXEU/%E6%B0%91%E5%AE%BF%E3%82%A2%E3%83%97%E3%83%AA%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E6%9B%B8?type=design&node-id=0%3A1&mode=design&t=SPuLgqEem0csEALg-1' target='_blank' rel='noopener noreferrer'>https://www.figma.com/</a></p>
             <h3>開発の経緯・ストーリー</h3>
             <p>
               スクールの教材でJavaを学ぶ課程で作成いたしました。
