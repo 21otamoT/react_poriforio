@@ -1,8 +1,9 @@
+import { Link } from 'react-scroll'
 import '../../../css/works.css'
 
 const Menu = () => {
   return (
-    <article className="article">
+    <article className="article" id='move'>
         <div>
           <h2 className='work-title'>メニュー計算アプリ</h2>
           <div>
@@ -28,7 +29,14 @@ const Menu = () => {
           <span class="material-symbols-outlined">
             arrow_upward
           </span>
-          <a href='#works'>作品一覧へ</a>
+          <Link
+          activeClass='active'
+          to='works'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          >作品一覧へ</Link>
         </div>
       </article>
   )

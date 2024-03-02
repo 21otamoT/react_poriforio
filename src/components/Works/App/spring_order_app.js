@@ -1,8 +1,9 @@
+import { Link } from 'react-scroll'
 import '../../../css/works.css'
 
 const Order = () => {
   return (
-    <article className="article">
+    <article className="article" id='move'>
         <div>
           <h2 className='work-title'>注文アプリ</h2>
           <div>
@@ -32,7 +33,14 @@ const Order = () => {
           <span class="material-symbols-outlined">
             arrow_upward
           </span>
-          <a href='#works'>作品一覧へ</a>
+          <Link
+          activeClass='active'
+          to='works'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          >作品一覧へ</Link>
         </div>
       </article>
   )

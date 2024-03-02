@@ -1,8 +1,9 @@
+import { Link } from 'react-scroll'
 import '../../../css/works.css'
 
 const Work5 = () => {
   return (
-    <article className="article">
+    <article className="article" id='move'>
         <div>
           <h2 className='work-title'>ITスクールのLP</h2>
           <div>
@@ -13,7 +14,7 @@ const Work5 = () => {
               ITスクールLPのデザインカンプになります。
             </p>
             <h3>URL</h3>
-            <p><a href="" target="_blank" rel="noopener"></a></p>
+            <p></p>
             <h3>担当</h3>
             <p>デザイン</p>
             <h3>デザインカンプの目的</h3>
@@ -30,7 +31,14 @@ const Work5 = () => {
           <span class="material-symbols-outlined">
             arrow_upward
           </span>
-          <a href='#works'>作品一覧へ</a>
+          <Link
+          activeClass='active'
+          to='works'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          >作品一覧へ</Link>
         </div>
       </article>
   )
