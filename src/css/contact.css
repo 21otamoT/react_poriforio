@@ -1,5 +1,12 @@
 .container#contact {
   margin: 0;
+  @media screen and (min-width:768px) {
+    transform: translate(30%, 0);
+  }
+}
+
+div.Uc2NEf > div {
+  margin: 0;
 }
 
 .contact-list {
