@@ -1,59 +1,25 @@
 import { useState } from "react"
-import { Link } from "react-scroll"
+import { Link } from "react-router-dom"
+
+
 
 const Menu = () => {
 
   return(
-    <>
+    <ul>
       <li>
-        <Link
-          activeClass="active"
-          to="works"
-          spy={true}
-          smooth={true}
-          offset={-70} // スクロール時のオフセット調整
-          duration={500} // スクロールにかかる時間（ミリ秒）
-        >
-          作品<br/>Works
-        </Link>
+        <Link to="/works">作品<br/>Works</Link>
       </li>
       <li>
-        <Link 
-          activeClass="active"
-          to="skill"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          スキル<br/>Skil
-        </Link>
+        <Link to="/skill">スキル<br/>Skil</Link>
       </li>
       <li>
-        <Link 
-          activeClass="active"
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          自己紹介<br/>Self-introduction
-        </Link>
+        <Link to="/about">自己紹介<br/>Self-introduction</Link>
       </li>
       <li>
-      <Link 
-        activeClass="active"
-        to="contact"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-      >
-        お問い合わせ<br/>Contact
-      </Link>
+      <Link to="/contact">お問い合わせ<br/>Contact</Link>
       </li>
-    </>
+    </ul>
   )
 }
 
@@ -70,60 +36,25 @@ const Hmbarger = () => {
             <span className="material-symbols-outlined">
               computer
             </span>
-            <Link
-              activeClass="active"
-              to="works"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}>
-              作品
-            </Link>
+            <Link to="/works">作品</Link>
           </li>
           <li>
-            <span class="material-symbols-outlined">
+            <span className="material-symbols-outlined">
               flutter
             </span>
-            <Link
-              activeClass="active"
-              to="skill"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-            スキル
-            </Link>
+            <Link to="/skill">スキル</Link>
           </li>
           <li>
-            <span class="material-symbols-outlined">
+            <span className="material-symbols-outlined">
               person
             </span>
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              自己紹介
-            </Link>
+            <Link to="/about">自己紹介</Link>
           </li>
           <li>
-            <span class="material-symbols-outlined">
+            <span className="material-symbols-outlined">
               mail
             </span>
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              お問い合わせ
-            </Link>
+            <Link to="/contact">お問い合わせ</Link>
           </li>
         </ul>
         <div className='hmbtn' onClick={handleClick}>
@@ -139,7 +70,7 @@ const Hmbarger = () => {
 const Header = () => {
   return(
     <header>
-        <h1 className="home"><a href="#"><img src="../img/yukihiro.png" /></a></h1>
+        <h1 className="home"><Link to="/"><img src="../img/yukihiro.png" /></Link></h1>
         <nav>
           <ul className="header-menu">
             <Menu/>

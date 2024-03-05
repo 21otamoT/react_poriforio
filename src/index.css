@@ -1,3 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('../public/img/mainvisual.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 li {
   list-style: none;
 }

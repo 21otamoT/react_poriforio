@@ -1,13 +1,12 @@
 .profile {
   position: relative;
   max-width: 960px;
-  padding:0 0 56px;
+  padding:56px 0 56px;
   background-image: url('../../public/img/About.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center center;
-  z-index: -1;
 }
 
 .profile::before {
@@ -28,7 +27,7 @@
 }
 
 .profile-body {
-  background-color: rgba(251, 251, 253, 40%);
+  background-color: rgba(9, 9, 243, 20%);
 }
 
 .profile-body > p {
