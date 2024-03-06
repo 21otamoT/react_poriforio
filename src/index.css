@@ -11,6 +11,7 @@ body {
   background-image: url('../public/img/mainvisual.png');
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Kiwi Maru","Zen Kaku Gothic New", sans-serif, serif;
 }
 
 li {

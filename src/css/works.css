@@ -41,3 +41,6 @@ p {
   justify-content: center;
 }
 
+.works > a {
+  font-weight: bold;
+}
