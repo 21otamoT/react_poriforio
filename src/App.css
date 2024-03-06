@@ -11,14 +11,21 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .home {
   width: 10%;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 .home a {
   color: #333;
+  display: flex;
+  align-items: center;
+  padding: 12px;
 }
 
 .home img {
@@ -33,6 +40,10 @@ nav ul {
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+
+.header-menu li+li {
+  margin-left: 24px;
 }
 
 .header-menu li a {

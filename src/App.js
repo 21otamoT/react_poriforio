@@ -5,11 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sites from './components/Tabs/Site';
 import WorksApp from './components/Tabs/WorksApp';
 import Design from './components/Tabs/Design';
-import PreloadImage from './components/PreloadImage';
 import Tabs from './components/Tabs/Tabs';
 import Skill from './components/skill';
 import Selfintroduction from './components/Self-introduction';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 
 
 const App = () => {
@@ -23,16 +22,11 @@ const App = () => {
       <Router>
         <Header/>
         <Routes>
-          <Route path="/" element={
-            <div>
-              
-            </div>
-          }>
-          </Route>
+          <Route path="/" element={<div></div>}></Route>
           <Route path="/works" element={<Tabs tabs={tabs} content={content}/>}></Route>
           <Route path="/skill" element={<Skill />}></Route>
           <Route path="/about" element={<Selfintroduction />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          {/* <Route path="/contact" element={<Contact />}></Route> */}
         </Routes>
         <Footer/>
       </Router>

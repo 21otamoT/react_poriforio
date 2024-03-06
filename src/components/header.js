@@ -1,25 +1,23 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 
-
-
 const Menu = () => {
 
   return(
-    <ul>
+    <>
       <li>
         <Link to="/works">作品<br/>Works</Link>
       </li>
       <li>
-        <Link to="/skill">スキル<br/>Skil</Link>
+        <Link to="/skill">スキル<br/>Skill</Link>
       </li>
       <li>
-        <Link to="/about">自己紹介<br/>Self-introduction</Link>
+        <Link to="/about">自己紹介<br/>About</Link>
       </li>
       <li>
-      <Link to="/contact">お問い合わせ<br/>Contact</Link>
+      {/* <Link to="/contact">お問い合わせ<br/>Contact</Link> */}
       </li>
-    </ul>
+    </>
   )
 }
 
@@ -50,12 +48,12 @@ const Hmbarger = () => {
             </span>
             <Link to="/about">自己紹介</Link>
           </li>
-          <li>
+          {/* <li>
             <span className="material-symbols-outlined">
               mail
             </span>
             <Link to="/contact">お問い合わせ</Link>
-          </li>
+          </li> */}
         </ul>
         <div className='hmbtn' onClick={handleClick}>
         <span className={active}></span>
@@ -70,7 +68,7 @@ const Hmbarger = () => {
 const Header = () => {
   return(
     <header>
-        <h1 className="home"><Link to="/"><img src="../img/yukihiro.png" /></Link></h1>
+        <h1 className="home"><Link to="/"><img src="../img/yukihiro.png" alt="meinvisual"/></Link></h1>
         <nav>
           <ul className="header-menu">
             <Menu/>

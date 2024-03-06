@@ -4,7 +4,7 @@ const Selfintroduction = () => {
   return(
     <section className="profile container" id='about'>
       <h2 className='self-title'>自己紹介</h2>
-      <div className="container">
+      <div>
         <div className="profile-body">
           <p>
             廣瀬 有喜啓

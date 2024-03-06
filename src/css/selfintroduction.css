@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center center;
+  z-index: 1;
 }
 
 .profile::before {
@@ -21,17 +22,21 @@
   clip-path: polygon(0 0, 0% 100%, 100% 0);
 }
 
-.profile .container {
+.profile.container > div {
   width: 80%;
-  margin: 0 auto;
-}
-
-.profile-body {
-  background-color: rgba(9, 9, 243, 20%);
+  padding-left: 20px;
 }
 
 .profile-body > p {
   margin: 0;
+}
+
+.profile-body > p > a {
+  font-size: 18px;
+}
+
+.profile-body > p > a:hover {
+  color: #333;
 }
 
 @media screen and (max-width: 768px) {
