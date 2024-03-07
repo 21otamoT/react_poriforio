@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/react_poriforio/static/css/main.6f90371e.css",
-    "main.js": "/react_poriforio/static/js/main.53ecf49c.js",
+    "main.css": "/react_poriforio/static/css/main.27da717b.css",
+    "main.js": "/react_poriforio/static/js/main.9aed449f.js",
     "static/media/works-3.gif": "/react_poriforio/static/media/works-3.09bc4e08e100568516cb.gif",
-    "static/media/mainvisual.png": "/react_poriforio/static/media/mainvisual.2506d671a9d4e4bcff29.png",
+    "static/media/pokemon_details.png": "/react_poriforio/static/media/pokemon_details.b2fffd83dfc6833deafe.png",
     "static/media/works-5.png": "/react_poriforio/static/media/works-5.1c639f870667549ae89a.png",
     "static/media/works-1.png": "/react_poriforio/static/media/works-1.a3baa63d0a67950247e2.png",
     "static/media/works-6.png": "/react_poriforio/static/media/works-6.73c2ae03fc3956270a26.png",
+    "static/media/pokemon.png": "/react_poriforio/static/media/pokemon.b5d98e7b4407439f1b25.png",
+    "static/media/blog.png": "/react_poriforio/static/media/blog.08702caffbab744b7833.png",
     "static/media/design_laugh.png": "/react_poriforio/static/media/design_laugh.67b3dae4d6b18a77b0f5.png",
     "static/media/wordpress2.png": "/react_poriforio/static/media/wordpress2.6ca3e5268223fc5a2f7c.png",
     "static/media/hirosetravel.png": "/react_poriforio/static/media/hirosetravel.41a0bdef79d9205c8c11.png",
@@ -21,6 +23,7 @@
     "static/media/html1.png": "/react_poriforio/static/media/html1.e2b3a9c2e988378b99c8.png",
     "static/media/Order.png": "/react_poriforio/static/media/Order.9f483819280583ff8103.png",
     "static/media/spring_order.png": "/react_poriforio/static/media/spring_order.8a17d00c69449e4718d9.png",
+    "static/media/mainvisual.jpg": "/react_poriforio/static/media/mainvisual.a2f236bcefdd749d2fcf.jpg",
     "static/media/samurai_kadai_002.png": "/react_poriforio/static/media/samurai_kadai_002.cd2bbe77e4a0f639fb8a.png",
     "static/media/wordpress1.png": "/react_poriforio/static/media/wordpress1.5ab0cb309f223a5472bf.png",
     "static/media/About.png": "/react_poriforio/static/media/About.306717c81d4990a56db6.png",
@@ -46,11 +49,11 @@
     "static/media/icons8-spring-logo.svg": "/react_poriforio/static/media/icons8-spring-logo.229fbc26e7316240b3ab1ec1a5d10699.svg",
     "index.html": "/react_poriforio/index.html",
     "static/media/Typescript.svg": "/react_poriforio/static/media/Typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
-    "main.6f90371e.css.map": "/react_poriforio/static/css/main.6f90371e.css.map",
-    "main.53ecf49c.js.map": "/react_poriforio/static/js/main.53ecf49c.js.map"
+    "main.27da717b.css.map": "/react_poriforio/static/css/main.27da717b.css.map",
+    "main.9aed449f.js.map": "/react_poriforio/static/js/main.9aed449f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f90371e.css",
-    "static/js/main.53ecf49c.js"
+    "static/css/main.27da717b.css",
+    "static/js/main.9aed449f.js"
   ]
 }
