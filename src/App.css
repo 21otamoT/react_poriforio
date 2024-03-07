@@ -57,6 +57,7 @@ nav ul {
 
 .hmenu {
   position: fixed;
+  z-index: 11;
 }
 
 .hmenu ul {
@@ -158,6 +159,11 @@ header nav {
   color: #fff;
 }
 
+.hmenuactive ul li {
+  display: flex;
+  align-items: center;
+}
+
 .hmenuactive ul li+li {
   margin: 16px 0 0;
 }
@@ -169,7 +175,7 @@ header nav {
   place-items: center;
   background-color: #00bfff;
   position: fixed;
-  inset: auto auto 10% 45%;
+  inset: auto auto 3% 45%;
   border-radius: 50%;
   z-index: 9999;
 }

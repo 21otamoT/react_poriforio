@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import logo from "../img/yukihiro.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLaptopCode, faSun, faImagePortrait } from '@fortawesome/free-solid-svg-icons'
 
 const Menu = () => {
 
@@ -32,22 +34,16 @@ const Hmbarger = () => {
       <div className={"hmenu"+active}>
         <ul>
           <li>
-            <span className="material-symbols-outlined">
-              computer
-            </span>
             <Link to="/works">作品</Link>
+            <FontAwesomeIcon icon={faSun} style={{color: 'white'}}/>
           </li>
           <li>
-            <span className="material-symbols-outlined">
-              flutter
-            </span>
             <Link to="/skill">スキル</Link>
+            <FontAwesomeIcon icon={faLaptopCode} style={{color: 'white'}}/>
           </li>
           <li>
-            <span className="material-symbols-outlined">
-              person
-            </span>
             <Link to="/about">自己紹介</Link>
+            <FontAwesomeIcon icon={faImagePortrait} style={{color: 'white'}}/>
           </li>
           {/* <li>
             <span className="material-symbols-outlined">

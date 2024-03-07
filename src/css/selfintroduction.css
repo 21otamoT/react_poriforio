@@ -1,7 +1,7 @@
 .profile {
   position: relative;
   max-width: 960px;
-  padding:56px 0 56px;
+  height: 70vh;
   background-image: url('../img/About.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   display: inline-block;
   width: 30%;
   height: 100%;
-  background: linear-gradient(45deg,#0000cd, #00bfff,#87cefa);
+  background: linear-gradient(45deg,transparent, #00bfff);
   position: absolute;
   inset: 0 auto auto 0;
   z-index: -1;
