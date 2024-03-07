@@ -27,7 +27,7 @@ const Menu = () => {
           </div>
         </div>
         <div className='works'>
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
           &#9651;
           </span>
           <Link
