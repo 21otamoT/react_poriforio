@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_poriforio/static/css/main.6f90371e.css",
+    "main.js": "/react_poriforio/static/js/main.86f54b75.js",
+    "static/media/mainvisual.png": "/react_poriforio/static/media/mainvisual.2506d671a9d4e4bcff29.png",
+    "static/media/About.png": "/react_poriforio/static/media/About.306717c81d4990a56db6.png",
+    "static/media/Skils.png": "/react_poriforio/static/media/Skils.8a3fc6a39062ef9f5fe2.png",
+    "index.html": "/react_poriforio/index.html",
+    "main.6f90371e.css.map": "/react_poriforio/static/css/main.6f90371e.css.map",
+    "main.86f54b75.js.map": "/react_poriforio/static/js/main.86f54b75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f90371e.css",
+    "static/js/main.86f54b75.js"
+  ]
+}
