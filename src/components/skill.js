@@ -1,4 +1,17 @@
 import '../css/skill.css'
+import html from "../img/skills/html.png"
+import css from "../img/skills/icons8-css-480.png"
+import javascript from "../img/skills/js.png"
+import jquery from "../img/skills/jquery.png"
+import php from "../img/skills/icons8-php-80.png"
+import ts from "../img/skills/Typescript.svg"
+import java from "../img/skills/java_original_wordmark_logo_icon_146459.svg"
+import spring from "../img/skills/icons8-spring-logo.svg"
+import sql from "../img/skills/icons8-mysql.svg"
+import react from "../img/skills/icons8-react-native.svg" 
+import figma from "../img/skills/icons8-figma-144.png"
+import photoshop from "../img/skills/photoshop.png"
+import wordpress from "../img/skills/wordpress.png"
 
 const Skill = () => {
   return(
@@ -7,7 +20,7 @@ const Skill = () => {
           <h2>スキル</h2>
           <div className="skill-list">
             <div className="skill-item">
-              <p className="skill-img"><img src="img/skills/html.png" alt="html" /></p>
+              <p className="skill-img"><img src={html} alt="html" /></p>
               <div className="skill-body">
                 <h3 className="skill-name">HTML</h3>
                 <p className="skill-text">
@@ -16,7 +29,7 @@ const Skill = () => {
               </div>
             </div>
             <div className="skill-item">
-              <p className="skill-img"><a target="_blank" href="https://icons8.com"><img src="img/skills/icons8-css-480.png" alt="html" /></a></p>
+              <p className="skill-img"><a target="_blank" href="https://icons8.com"><img src={css} alt="css" /></a></p>
               <div className="skill-body">
                 <h3 className="skill-name">CSS</h3>
                 <p className="skill-text">
@@ -27,7 +40,7 @@ const Skill = () => {
               </div>
             </div>
             <div className="skill-item">
-              <p className="skill-img"><img src="img/skills/js.png" alt="javascript" /></p>
+              <p className="skill-img"><img src={javascript} alt="javascript" /></p>
               <div className="skill-body">
                 <h3 className="skill-name">JavaScript</h3>
                 <p className="skill-text">
@@ -37,7 +50,7 @@ const Skill = () => {
               </div>
             </div>
             <div className="skill-item">
-              <p className="skill-img"><a target="_blank" href="https://icons8.com"><img src="img/skills/Typescript.svg" alt="Typescript" /></a></p>
+              <p className="skill-img"><a target="_blank" href="https://icons8.com"><img src={ts} alt="Typescript" /></a></p>
               <div className="skill-body">
                 <h3 className="skill-name">Typescript</h3>
                 <p className="skill-text">
@@ -46,7 +59,7 @@ const Skill = () => {
               </div>
             </div>
             <div className="skill-item">
-              <p className="skill-img"><img src="img/skills/jquery.png" alt="jquery" /></p>
+              <p className="skill-img"><img src={jquery} alt="jquery" /></p>
               <div className="skill-body">
                 <h3 className="skill-name">jQuery</h3>
                 <p className="skill-text">
@@ -56,7 +69,7 @@ const Skill = () => {
               </div>
             </div>
             <div className="skill-item">
-              <p className="skill-img"><a target="_blank" href="https://icons8.com/icon/123603/react-native"><img src="img/skills/icons8-react-native.svg" alt="React" /></a></p>
+              <p className="skill-img"><a target="_blank" href="https://icons8.com/icon/123603/react-native"><img src={react} alt="React" /></a></p>
               <div className="skill-body">
                 <h3 className="skill-name">React</h3>
                 <p className="skill-text">
@@ -67,7 +80,7 @@ const Skill = () => {
               </div>
             </div>
           <div className="skill-item">
-            <p className="skill-img"><img src="img/skills/java_original_wordmark_logo_icon_146459.svg" alt="Java" /></p>
+            <p className="skill-img"><img src={java} alt="Java" /></p>
             <div className="skill-body">
               <h3 className="skill-name">Java</h3>
               <p className="skill-text">
@@ -78,7 +91,7 @@ const Skill = () => {
             </div>
           </div>
           <div className="skill-item">
-            <p className="skill-img"><a target="_blank" href="https://icons8.com/icon/90519/%E6%98%A5%E3%81%AE%E3%83%AD%E3%82%B4"><img src="img/skills/icons8-spring-logo.svg" alt="SpringBoot" /></a></p>
+            <p className="skill-img"><a target="_blank" href="https://icons8.com/icon/90519/%E6%98%A5%E3%81%AE%E3%83%AD%E3%82%B4"><img src={spring} alt="SpringBoot" /></a></p>
             <div className="skill-body">
               <h3 className="skill-name">SpringBoot</h3>
               <p className="skill-text">
@@ -89,7 +102,7 @@ const Skill = () => {
             </div>
           </div>
           <div className="skill-item">
-            <p className="skill-img"><img src="img/skills/icons8-php-80.png" alt="jquery" /></p>
+            <p className="skill-img"><img src={php} alt="php" /></p>
             <div className="skill-body">
               <h3 className="skill-name">PHP</h3>
               <p className="skill-text">
@@ -101,7 +114,7 @@ const Skill = () => {
             </div>
           </div>
           <div className="skill-item">
-            <p className="skill-img"><a target="_blank" href="https://icons8.com/icon/UFXRpPFebwa2/mysql-%E3%83%AD%E3%82%B4"><img src="img/skills/icons8-mysql.svg" alt="MySQL" /></a></p>
+            <p className="skill-img"><a target="_blank" href="https://icons8.com/icon/UFXRpPFebwa2/mysql-%E3%83%AD%E3%82%B4"><img src={sql} alt="MySQL" /></a></p>
             <div className="skill-body">
               <h3 className="skill-name">MySQL</h3>
               <p className="skill-text">
@@ -111,7 +124,7 @@ const Skill = () => {
             </div>
           </div>
           <div className="skill-item">
-            <p className="skill-img"><img src="img/skills/wordpress.png" alt="wordpress" /></p>
+            <p className="skill-img"><img src={wordpress} alt="wordpress" /></p>
             <div className="skill-body">
               <h3 className="skill-name">WordPress</h3>
               <p className="skill-text">
@@ -119,7 +132,7 @@ const Skill = () => {
             </div>
           </div>
             <div className="skill-item">
-              <p className="skill-img"><img src="img/skills/photoshop.png" alt="photoshop" /></p>
+              <p className="skill-img"><img src={photoshop} alt="photoshop" /></p>
               <div className="skill-body">
                 <h3 className="skill-name">Adobe Photoshop</h3>
                 <p className="skill-text">
@@ -127,7 +140,7 @@ const Skill = () => {
               </div>
             </div>
             <div className="skill-item">
-              <p className="skill-img"><img src="img/skills/icons8-figma-144.png" alt="adobexd" /></p>
+              <p className="skill-img"><img src={figma} alt="figma" /></p>
               <div className="skill-body">
                 <h3 className="skill-name">Figma</h3>
                 <p className="skill-text">

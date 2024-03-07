@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import reactmenu from "../../../img/works/details/menu_app_long.png"
 
 const Menu = () => {
   return (
@@ -8,7 +9,7 @@ const Menu = () => {
           <h2 className='work-title'>メニュー計算アプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="./img/works/details/menu_app_long.png" alt="メニュー計算アプリ" />
+              <img src={reactmenu} alt="メニュー計算アプリ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://21otamot.github.io/react_menu_app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/typing_game/</a></p>
@@ -27,7 +28,7 @@ const Menu = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'

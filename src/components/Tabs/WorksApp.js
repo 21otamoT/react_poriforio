@@ -11,6 +11,15 @@ import Postal from '../Works/App/js_postal';
 import Order from '../Works/App/spring_order_app';
 import PreloadImage from '../PreloadImage';
 import { Link } from 'react-scroll';
+import hirosetravel from "../../img/works/hirosetravel.png"
+import orderapp from "../../img/works/Order.png"
+import hirosemart from "../../img/works/hirose_mart.png"
+import tstodo from "../../img/works/ToDoリスト - 21otamot.github.io.png"
+import reacttodo from "../../img/works/react-todo.png"
+import reactmenu from "../../img/works/react_menu_app.png"
+import postal from "../../img/works/js-postal-code.png"
+import typinggame from "../../img/works/typing_game.png"
+import reactthree from "../../img/works/react_three_pronged.png"
 
 const WorksApp = () => {
 const [selectWork, setSelectWork] = useState(null)
@@ -30,8 +39,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<Travel />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/hirosetravel.png"/>
-        <div className="works-img"><img src="img/works/hirosetravel.png" alt="民宿予約アプリ" /></div>
+        <PreloadImage src={hirosetravel}/>
+        <div className="works-img"><img src={hirosetravel} alt="民宿予約アプリ" /></div>
         <h4 className="works-name">民宿予約アプリ</h4>
         <p className="works-info">{`HTML/CSS/\nJavaScript/SpringBoot\n/SQL`}</p>
       </Link>
@@ -44,8 +53,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<Order />)} className='works-item'>
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/Order.png"/>
-        <div className="works-img"><img src="img/works/Order.png" alt="注文アプリ" /></div>
+        <PreloadImage src={orderapp}/>
+        <div className="works-img"><img src={orderapp} alt="注文アプリ" /></div>
         <h4 className="works-name">注文アプリ</h4>
         <p className="works-info">{`html/css/JavaScript\nSpringBoot/SQL`}</p>
       </Link>
@@ -58,8 +67,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<Mart />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/hirose_mart.png"/>
-        <div className="works-img"><img src="img/works/hirose_mart.png" alt="商品管理アプリ" /></div>
+        <PreloadImage src={hirosemart}/>
+        <div className="works-img"><img src={hirosemart} alt="商品管理アプリ" /></div>
         <h4 className="works-name">商品管理アプリ</h4>
         <p className="works-info">HTML/CSS/PHP/SQL</p>
       </Link>
@@ -72,8 +81,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<Todo />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/ToDoリスト - 21otamot.github.io.png"/>
-        <div className="works-img"><img src="img/works/ToDoリスト - 21otamot.github.io.png" alt="ToDoアプリ" /></div>
+        <PreloadImage src={tstodo}/>
+        <div className="works-img"><img src={tstodo} alt="ToDoアプリ" /></div>
         <h4 className="works-name">ToDoアプリ</h4>
         <p className="works-info">HTML/CSS/Typescript</p>
       </Link>
@@ -86,8 +95,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<Typing />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/typing_game.png"/>
-        <div className="works-img"><img src="img/works/typing_game.png" alt="タイピングゲーム" /></div>
+        <PreloadImage src={typinggame}/>
+        <div className="works-img"><img src={typinggame} alt="タイピングゲーム" /></div>
         <h4 className="works-name">タイピングゲーム</h4>
         <p className="works-info">HTML/CSS/JavaScript</p>
       </Link>
@@ -100,8 +109,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<Menu />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/react_menu_app.png"/>
-        <div className="works-img"><img src="img/works/react_menu_app.png" alt="メニュー計算アプリ" /></div>
+        <PreloadImage src={reactmenu}/>
+        <div className="works-img"><img src={reactmenu} alt="メニュー計算アプリ" /></div>
         <h4 className="works-name">メニュー計算アプリ</h4>
         <p className="works-info">css/React</p>
       </Link>
@@ -114,8 +123,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<ReactTodo />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/react-todo.png"/>
-        <div className="works-img"><img src="img/works/react-todo.png" alt="ToDoリストアプリ" /></div>
+        <PreloadImage src={reacttodo}/>
+        <div className="works-img"><img src={reacttodo} alt="ToDoリストアプリ" /></div>
         <h4 className="works-name">ToDoリストアプリ</h4>
         <p className="works-info">css/React</p>
       </Link>
@@ -128,8 +137,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<ReactThree />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/react_three_pronged.png"/>
-        <div className="works-img"><img src="img/works/react_three_pronged.png" alt="三目並べ" /></div>
+        <PreloadImage src={reactthree}/>
+        <div className="works-img"><img src={reactthree} alt="三目並べ" /></div>
         <h4 className="works-name">三目並べ</h4>
         <p className="works-info">css/React</p>
       </Link>
@@ -142,8 +151,8 @@ const handleClick = work => {
       duration={500}
       onClick={() => handleClick(<Postal />)} className="works-item">
         {/* 画像をプリロード */}
-        <PreloadImage src="img/works/js-postal-code.png"/>
-        <div className="works-img"><img src="img/works/js-postal-code.png" alt="住所検索アプリ" /></div>
+        <PreloadImage src={postal}/>
+        <div className="works-img"><img src={postal} alt="住所検索アプリ" /></div>
         <h4 className="works-name">住所検索アプリ</h4>
         <p className="works-info">css/JavaScript</p>
       </Link>

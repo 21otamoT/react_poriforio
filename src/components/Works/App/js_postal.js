@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import postal from "../../../img/works/details/js-postal-code.png"
 
 const Postal = () => {
   return (
@@ -8,7 +9,7 @@ const Postal = () => {
           <h2 className='work-title'>住所検索アプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="../img/works/js-postal-code.png" alt="住所検索アプリ" />
+              <img src={postal} alt="住所検索アプリ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://21otamot.github.io/postal-code-app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/postal-code-app/</a></p>
@@ -27,7 +28,7 @@ const Postal = () => {
         </div>
         <div className='works'>
         <span class="material-symbols-outlined">
-          arrow_upward
+          &#9651;
         </span>
           <Link
           activeClass='active'

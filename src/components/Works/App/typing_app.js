@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import typing from "../../../img/works/details/typing_game.png"
 
 const Typing = () => {
   return (
@@ -8,7 +9,7 @@ const Typing = () => {
           <h2 className='work-title'>タイピングゲーム</h2>
           <div>
             <p className='img-container'>
-              <img src="./img/works/details/typing_game.png" alt="タイピングゲーム" />
+              <img src={typing} alt="タイピングゲーム" />
             </p>
             <h3>URL</h3>
             <p><a href="https://21otamot.github.io/typing_game/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/typing_game/</a></p>
@@ -28,7 +29,7 @@ const Typing = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'

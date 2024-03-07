@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import order from "../../../img/works/details/spring_order.png"
 
 const Order = () => {
   return (
@@ -8,7 +9,7 @@ const Order = () => {
           <h2 className='work-title'>注文アプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="./img/works/details/spring_order.png" alt="注文アプリ" />
+              <img src={order} alt="注文アプリ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://hirosekafe-order-1bf0315d9e13.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://hirosekafe-order-1bf0315d9e13.herokuapp.com/</a></p>
@@ -31,7 +32,7 @@ const Order = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'

@@ -2,7 +2,7 @@
   position: relative;
   max-width: 960px;
   padding:56px 0 56px;
-  background-image: url('../../public/img/About.png');
+  background-image: url('../img/About.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 50%;

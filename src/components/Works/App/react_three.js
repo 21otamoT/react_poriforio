@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import reactthree from "../../../img/works/details/react_three_pronged.png"
 
 const ReactThree = () => {
   return (
@@ -8,7 +9,7 @@ const ReactThree = () => {
           <h2 className='work-title'>三目並べ</h2>
           <div>
             <p className='img-container'>
-              <img src="../img/works/details/react_three_pronged.png" alt="三目並べ" />
+              <img src={reactthree} alt="三目並べ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://21otamot.github.io/react_three_pronged_app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/react_todo_app/</a></p>
@@ -26,7 +27,7 @@ const ReactThree = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'

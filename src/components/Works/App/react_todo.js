@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import reacttodo from "../../../img/works/details/react_todo_app.png"
 
 const ReactTodo = () => {
   return (
@@ -8,7 +9,7 @@ const ReactTodo = () => {
           <h2 className='work-title'>ToDoアプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="../img/works/details/react-todo.png" alt="ToDoアプリ" />
+              <img src={reacttodo} alt="ToDoアプリ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://21otamot.github.io/react_todo_app/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/react_todo_app/</a></p>
@@ -26,7 +27,7 @@ const ReactTodo = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'

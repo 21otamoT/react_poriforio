@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import work from '../../../img/works/details/works-4.png'
 
 const Work4 = () => {
   return (
@@ -8,7 +9,7 @@ const Work4 = () => {
           <h2 className='work-title'>ITスクールのバナー</h2>
           <div>
             <p className='img-container'>
-              <img src="./img/works/details/works-4.png" alt="work4" />
+              <img src={work} alt="work4" />
             </p>
             <p>
               ITスクールを手掛ける企業様のクリエイティブバナーになります。
@@ -29,7 +30,7 @@ const Work4 = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'

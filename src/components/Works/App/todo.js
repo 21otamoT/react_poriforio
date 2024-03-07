@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import todo from "../../../img/works/details/ToDoリスト - 21otamot.github.io.png"
 
 const Todo = () => {
   return (
@@ -8,7 +9,7 @@ const Todo = () => {
           <h2 className='work-title'>ToDoアプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="../img/works/details/ToDoリスト - 21otamot.github.io.png" alt="ToDoアプリ" />
+              <img src={todo} alt="ToDoアプリ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://21otamot.github.io/ts-ToDo/" target="_blank" rel="noopener noreferrer">https://21otamot.github.io/ts-ToDo/</a></p>
@@ -26,7 +27,7 @@ const Todo = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'

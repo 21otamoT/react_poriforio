@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll'
 import '../../../css/works.css'
+import hirosemart from "../../../img/works/hirose_mart.png"
 
 const Mart = () => {
   return (
@@ -8,7 +9,7 @@ const Mart = () => {
           <h2 className='work-title'>商品管理アプリ</h2>
           <div>
             <p className='img-container'>
-              <img src="../img/works/hirose_mart.png" alt="商品管理アプリ" />
+              <img src={hirosemart} alt="商品管理アプリ" />
             </p>
             <h3>URL</h3>
             <p><a href="https://hirose-mart-21a6b3410b59.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://hirose-mart-21a6b3410b59.herokuapp.com/</a></p>
@@ -26,7 +27,7 @@ const Mart = () => {
         </div>
         <div className='works'>
           <span class="material-symbols-outlined">
-            arrow_upward
+          &#9651;
           </span>
           <Link
           activeClass='active'
