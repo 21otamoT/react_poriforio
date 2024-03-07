@@ -22,6 +22,8 @@ import typinggame from "../../img/works/typing_game.png"
 import reactthree from "../../img/works/react_three_pronged.png"
 import React_pokemon from '../Works/App/react_pokemon';
 import pokemon from '../../img/works/pokemon.png'
+import blog from '../../img/works/blog.png'
+import React_blog from '../Works/App/react-blog';
 
 const WorksApp = () => {
 const [selectWork, setSelectWork] = useState(null)
@@ -171,6 +173,20 @@ const handleClick = work => {
         <div className="works-img"><img src={pokemon} alt="ポケモン図鑑" /></div>
         <h4 className="works-name">ポケモン図鑑</h4>
         <p className="works-info">css/JavaScript/React</p>
+      </Link>
+      <Link
+      activeClass='active'
+      to='move'
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+      onClick={() => handleClick(<React_blog />)} className="works-item">
+        {/* 画像をプリロード */}
+        <PreloadImage src={blog}/>
+        <div className="works-img"><img src={blog} alt="ブログ" /></div>
+        <h4 className="works-name">ブログ</h4>
+        <p className="works-info">css/React/Firebase</p>
       </Link>
       <>
         {selectWork}
