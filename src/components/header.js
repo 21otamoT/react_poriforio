@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import logo from "../../img/yukihiro.png"
 
 const Menu = () => {
 
@@ -68,7 +69,7 @@ const Hmbarger = () => {
 const Header = () => {
   return(
     <header>
-        <h1 className="home"><Link to="/"><img src="../../img/yukihiro.png" alt="meinvisual"/></Link></h1>
+        <h1 className="home"><Link to="/"><img src={logo} alt="meinvisual"/></Link></h1>
         <nav>
           <ul className="header-menu">
             <Menu/>
