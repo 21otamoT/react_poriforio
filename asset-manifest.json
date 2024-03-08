@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_poriforio/static/css/main.27da717b.css",
-    "main.js": "/react_poriforio/static/js/main.9aed449f.js",
+    "main.css": "/react_poriforio/static/css/main.299917f2.css",
+    "main.js": "/react_poriforio/static/js/main.a1b23eee.js",
     "static/media/works-3.gif": "/react_poriforio/static/media/works-3.09bc4e08e100568516cb.gif",
     "static/media/pokemon_details.png": "/react_poriforio/static/media/pokemon_details.b2fffd83dfc6833deafe.png",
     "static/media/works-5.png": "/react_poriforio/static/media/works-5.1c639f870667549ae89a.png",
@@ -49,11 +49,11 @@
     "static/media/icons8-spring-logo.svg": "/react_poriforio/static/media/icons8-spring-logo.229fbc26e7316240b3ab1ec1a5d10699.svg",
     "index.html": "/react_poriforio/index.html",
     "static/media/Typescript.svg": "/react_poriforio/static/media/Typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
-    "main.27da717b.css.map": "/react_poriforio/static/css/main.27da717b.css.map",
-    "main.9aed449f.js.map": "/react_poriforio/static/js/main.9aed449f.js.map"
+    "main.299917f2.css.map": "/react_poriforio/static/css/main.299917f2.css.map",
+    "main.a1b23eee.js.map": "/react_poriforio/static/js/main.a1b23eee.js.map"
   },
   "entrypoints": [
-    "static/css/main.27da717b.css",
-    "static/js/main.9aed449f.js"
+    "static/css/main.299917f2.css",
+    "static/js/main.a1b23eee.js"
   ]
 }
