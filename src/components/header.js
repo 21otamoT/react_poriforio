@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import logo from "../img/yukihiro.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptopCode, faSun, faImagePortrait } from '@fortawesome/free-solid-svg-icons'
@@ -9,13 +9,19 @@ const Menu = () => {
   return(
     <>
       <li>
-        <Link to="/works">作品<br/>Works</Link>
+        <NavLink to="/works" style={({isActive}) => {
+          return isActive ? {color: 'rgb(221, 240, 135)'}: {}
+        }}>作品<br/>Works</NavLink>
       </li>
       <li>
-        <Link to="/skill">スキル<br/>Skill</Link>
+        <NavLink to="/skill" style={({isActive}) => {
+          return isActive ? {color: 'rgb(221, 240, 135)'}: {}
+        }}>スキル<br/>Skill</NavLink>
       </li>
       <li>
-        <Link to="/about">自己紹介<br/>About</Link>
+        <NavLink to="/about" style={({isActive}) => {
+          return isActive ? {color: 'rgb(221, 240, 135)'}: {}
+        }}>自己紹介<br/>About</NavLink>
       </li>
       <li>
       {/* <Link to="/contact">お問い合わせ<br/>Contact</Link> */}
