@@ -16,6 +16,7 @@ const Tabs = ({tabs, content}) => {
                 {tab.name}
               </button>
             ))}
+            <div className="tabBorder" style={{left: `${(activeTab)*33.3}%`}}></div>
         </div>
         <div>{content[activeTab]}</div>
       </section>

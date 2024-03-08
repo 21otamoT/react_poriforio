@@ -94,6 +94,7 @@ h2 {
   display: flex;
   max-width: 960px;
   margin: 16px auto 0;
+  position: relative;
 }
 
 .tab-container button {
@@ -112,7 +113,15 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
-  border-bottom: 3px solid #0000cd;
+}
+
+.tabBorder {
+  width: 33.3%;
+  height: 3px;
+  background-color: rgb(221, 240, 135);
+  position: absolute;
+  bottom: 0;
+  transition: left 0.3s ease-in;
 }
 
 .copy {
