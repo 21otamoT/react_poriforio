@@ -1,14 +1,12 @@
 {
   "files": {
     "main.css": "/react_poriforio/static/css/main.299917f2.css",
-    "main.js": "/react_poriforio/static/js/main.a1b23eee.js",
+    "main.js": "/react_poriforio/static/js/main.65faf6d2.js",
     "static/media/works-3.gif": "/react_poriforio/static/media/works-3.09bc4e08e100568516cb.gif",
     "static/media/pokemon_details.png": "/react_poriforio/static/media/pokemon_details.b2fffd83dfc6833deafe.png",
     "static/media/works-5.png": "/react_poriforio/static/media/works-5.1c639f870667549ae89a.png",
     "static/media/works-1.png": "/react_poriforio/static/media/works-1.a3baa63d0a67950247e2.png",
     "static/media/works-6.png": "/react_poriforio/static/media/works-6.73c2ae03fc3956270a26.png",
-    "static/media/pokemon.png": "/react_poriforio/static/media/pokemon.b5d98e7b4407439f1b25.png",
-    "static/media/blog.png": "/react_poriforio/static/media/blog.08702caffbab744b7833.png",
     "static/media/design_laugh.png": "/react_poriforio/static/media/design_laugh.67b3dae4d6b18a77b0f5.png",
     "static/media/wordpress2.png": "/react_poriforio/static/media/wordpress2.6ca3e5268223fc5a2f7c.png",
     "static/media/hirosetravel.png": "/react_poriforio/static/media/hirosetravel.41a0bdef79d9205c8c11.png",
@@ -32,9 +30,11 @@
     "static/media/react-todo.png": "/react_poriforio/static/media/react-todo.84e4b7645d20bf7e31a9.png",
     "static/media/Skils.png": "/react_poriforio/static/media/Skils.8a3fc6a39062ef9f5fe2.png",
     "static/media/menu_app_long.png": "/react_poriforio/static/media/menu_app_long.53de2a47f3904343e88b.png",
+    "static/media/pokemon.png": "/react_poriforio/static/media/pokemon.18661dc2e16a47c9ed46.png",
     "static/media/react_menu_app.png": "/react_poriforio/static/media/react_menu_app.202b372b529d168fca99.png",
     "static/media/js-postal-code.png": "/react_poriforio/static/media/js-postal-code.6d78a77d500869c041bd.png",
     "static/media/wordpress.png": "/react_poriforio/static/media/wordpress.264bf46407c43b948d74.png",
+    "static/media/blog.png": "/react_poriforio/static/media/blog.29be7559188c29e9c45d.png",
     "static/media/hirose_mart.png": "/react_poriforio/static/media/hirose_mart.3be118034c00595a185f.png",
     "static/media/react_todo_app.png": "/react_poriforio/static/media/react_todo_app.8a1cc8dbbd9e96cdfcb1.png",
     "static/media/yukihiro.png": "/react_poriforio/static/media/yukihiro.44cd0e89e30e49ab36d0.png",
@@ -50,10 +50,10 @@
     "index.html": "/react_poriforio/index.html",
     "static/media/Typescript.svg": "/react_poriforio/static/media/Typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
     "main.299917f2.css.map": "/react_poriforio/static/css/main.299917f2.css.map",
-    "main.a1b23eee.js.map": "/react_poriforio/static/js/main.a1b23eee.js.map"
+    "main.65faf6d2.js.map": "/react_poriforio/static/js/main.65faf6d2.js.map"
   },
   "entrypoints": [
     "static/css/main.299917f2.css",
-    "static/js/main.a1b23eee.js"
+    "static/js/main.65faf6d2.js"
   ]
 }
