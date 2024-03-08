@@ -23,9 +23,9 @@ const App = () => {
         <Header/>
         <Routes>
           <Route path="/react-poriforio" element={<div></div>}></Route>
-          <Route path="/works" element={<Tabs tabs={tabs} content={content}/>}></Route>
-          <Route path="/skill" element={<Skill />}></Route>
-          <Route path="/about" element={<Selfintroduction />}></Route>
+          <Route path="/react-poriforio/works" element={<Tabs tabs={tabs} content={content}/>}></Route>
+          <Route path="/react-poriforio/skill" element={<Skill />}></Route>
+          <Route path="/react-poriforio/about" element={<Selfintroduction />}></Route>
           {/* <Route path="/contact" element={<Contact />}></Route> */}
         </Routes>
         <Footer/>

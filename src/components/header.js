@@ -9,17 +9,17 @@ const Menu = () => {
   return(
     <>
       <li>
-        <NavLink to="/works" style={({isActive}) => {
+        <NavLink to="/react-poriforio/works" style={({isActive}) => {
           return isActive ? {color: 'rgb(221, 240, 135)'}: {}
         }}>作品<br/>Works</NavLink>
       </li>
       <li>
-        <NavLink to="/skill" style={({isActive}) => {
+        <NavLink to="/react-poriforio/skill" style={({isActive}) => {
           return isActive ? {color: 'rgb(221, 240, 135)'}: {}
         }}>スキル<br/>Skill</NavLink>
       </li>
       <li>
-        <NavLink to="/about" style={({isActive}) => {
+        <NavLink to="/react-poriforio/about" style={({isActive}) => {
           return isActive ? {color: 'rgb(221, 240, 135)'}: {}
         }}>自己紹介<br/>About</NavLink>
       </li>
@@ -40,15 +40,15 @@ const Hmbarger = () => {
       <div className={"hmenu"+active}>
         <ul>
           <li>
-            <Link to="/works">作品</Link>
+            <Link to="/react-poriforio/works">作品</Link>
             <FontAwesomeIcon icon={faSun} style={{color: 'white'}}/>
           </li>
           <li>
-            <Link to="/skill">スキル</Link>
+            <Link to="/react-poriforio/skill">スキル</Link>
             <FontAwesomeIcon icon={faLaptopCode} style={{color: 'white'}}/>
           </li>
           <li>
-            <Link to="/about">自己紹介</Link>
+            <Link to="/react-poriforio/about">自己紹介</Link>
             <FontAwesomeIcon icon={faImagePortrait} style={{color: 'white'}}/>
           </li>
           {/* <li>
