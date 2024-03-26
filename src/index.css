@@ -12,6 +12,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Kiwi Maru", "Zen Kaku Gothic New", sans-serif, serif;
+  @media screen and (max-width: 768px) {
+    background-size: 100vw 33vh;
+    background-repeat: repeat;
+  }
 }
 
 li {

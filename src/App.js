@@ -25,7 +25,14 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/react-poriforio" element={<AppLayout />}></Route>
-        <Route index element={<div></div>}></Route>
+        <Route
+          index
+          element={
+            <div>
+              <h1 className="mainTitle">For those who work</h1>
+            </div>
+          }
+        ></Route>
         <Route
           path="/react-poriforio/works"
           element={<Tabs tabs={tabs} content={content} />}
