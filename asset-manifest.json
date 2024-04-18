@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_poriforio/static/css/main.e8b32cee.css",
-    "main.js": "/react_poriforio/static/js/main.0a6fd1f1.js",
+    "main.js": "/react_poriforio/static/js/main.4cd567ae.js",
     "static/media/works-3.gif": "/react_poriforio/static/media/works-3.09bc4e08e100568516cb.gif",
     "static/media/rassen.png": "/react_poriforio/static/media/rassen.73da3a8ff08dd5aa645f.png",
     "static/media/pokemon_details.png": "/react_poriforio/static/media/pokemon_details.b2fffd83dfc6833deafe.png",
@@ -52,10 +52,10 @@
     "index.html": "/react_poriforio/index.html",
     "static/media/Typescript.svg": "/react_poriforio/static/media/Typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
     "main.e8b32cee.css.map": "/react_poriforio/static/css/main.e8b32cee.css.map",
-    "main.0a6fd1f1.js.map": "/react_poriforio/static/js/main.0a6fd1f1.js.map"
+    "main.4cd567ae.js.map": "/react_poriforio/static/js/main.4cd567ae.js.map"
   },
   "entrypoints": [
     "static/css/main.e8b32cee.css",
-    "static/js/main.0a6fd1f1.js"
+    "static/js/main.4cd567ae.js"
   ]
 }
