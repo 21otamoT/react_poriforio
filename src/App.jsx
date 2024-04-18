@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sites from "./components/Tabs/Site";
@@ -9,6 +9,7 @@ import Tabs from "./components/Tabs/Tabs";
 import Skill from "./components/skill";
 import Selfintroduction from "./components/Self-introduction";
 import AppLayout from "./components/AppLayout";
+import Home from "./components/Home";
 // import Contact from './components/Contact';
 
 const App = () => {
@@ -24,24 +25,14 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/react-poriforio" element={<AppLayout />}></Route>
+        <Route path="/" element={<AppLayout />}></Route>
+        <Route index element={<Home />}></Route>
         <Route
-          index
-          element={
-            <div>
-              <h1 className="mainTitle">For those who work</h1>
-            </div>
-          }
-        ></Route>
-        <Route
-          path="/react-poriforio/works"
+          path="/works"
           element={<Tabs tabs={tabs} content={content} />}
         ></Route>
-        <Route path="/react-poriforio/skill" element={<Skill />}></Route>
-        <Route
-          path="/react-poriforio/about"
-          element={<Selfintroduction />}
-        ></Route>
+        <Route path="/skill" element={<Skill />}></Route>
+        <Route path="/about" element={<Selfintroduction />}></Route>
         {/* <Route path="/contact" element={<Contact />}></Route> */}
       </Routes>
       <Footer />

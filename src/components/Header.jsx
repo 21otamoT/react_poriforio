@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../img/yukihiro.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,7 +13,7 @@ const Menu = () => {
     <>
       <li>
         <NavLink
-          to="/react-poriforio/works"
+          to="/works"
           style={({ isActive }) =>
             isActive ? { color: "rgb(244, 110, 202)" } : {}
           }
@@ -25,7 +25,7 @@ const Menu = () => {
       </li>
       <li>
         <NavLink
-          to="/react-poriforio/skill"
+          to="/skill"
           style={({ isActive }) =>
             isActive ? { color: "rgb(244, 110, 202)" } : {}
           }
@@ -37,7 +37,7 @@ const Menu = () => {
       </li>
       <li>
         <NavLink
-          to="/react-poriforio/about"
+          to="/about"
           style={({ isActive }) =>
             isActive ? { color: "rgb(244, 110, 202)" } : {}
           }
@@ -62,15 +62,15 @@ const Hmbarger = () => {
     <div className={"hmenu" + active}>
       <ul>
         <li>
-          <Link to="/react-poriforio/works">作品</Link>
+          <NavLink to="/works">作品</NavLink>
           <FontAwesomeIcon icon={faSun} style={{ color: "white" }} />
         </li>
         <li>
-          <Link to="/react-poriforio/skill">スキル</Link>
+          <NavLink to="/skill">スキル</NavLink>
           <FontAwesomeIcon icon={faLaptopCode} style={{ color: "white" }} />
         </li>
         <li>
-          <Link to="/react-poriforio/about">自己紹介</Link>
+          <NavLink to="/about">自己紹介</NavLink>
           <FontAwesomeIcon icon={faImagePortrait} style={{ color: "white" }} />
         </li>
         {/* <li>
@@ -93,9 +93,9 @@ const Header = () => {
   return (
     <header>
       <h1 className="home">
-        <Link to="/">
+        <NavLink to="/">
           <img src={logo} alt="logo" />
-        </Link>
+        </NavLink>
       </h1>
       <nav>
         <ul className="header-menu">
