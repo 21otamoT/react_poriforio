@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_poriforio/static/css/main.bee13b56.css",
-    "main.js": "/react_poriforio/static/js/main.486dbcd3.js",
+    "main.css": "/react_poriforio/static/css/main.1e7aa978.css",
+    "main.js": "/react_poriforio/static/js/main.d549d629.js",
     "static/media/works-3.gif": "/react_poriforio/static/media/works-3.09bc4e08e100568516cb.gif",
     "static/media/rassen.png": "/react_poriforio/static/media/rassen.73da3a8ff08dd5aa645f.png",
     "static/media/pokemon_details.png": "/react_poriforio/static/media/pokemon_details.b2fffd83dfc6833deafe.png",
@@ -52,11 +52,11 @@
     "static/media/icons8-react-native.svg": "/react_poriforio/static/media/icons8-react-native.9235e8f8e2b73d394801330aba87511f.svg",
     "static/media/icons8-spring-logo.svg": "/react_poriforio/static/media/icons8-spring-logo.229fbc26e7316240b3ab1ec1a5d10699.svg",
     "static/media/Typescript.svg": "/react_poriforio/static/media/Typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
-    "main.bee13b56.css.map": "/react_poriforio/static/css/main.bee13b56.css.map",
-    "main.486dbcd3.js.map": "/react_poriforio/static/js/main.486dbcd3.js.map"
+    "main.1e7aa978.css.map": "/react_poriforio/static/css/main.1e7aa978.css.map",
+    "main.d549d629.js.map": "/react_poriforio/static/js/main.d549d629.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee13b56.css",
-    "static/js/main.486dbcd3.js"
+    "static/css/main.1e7aa978.css",
+    "static/js/main.d549d629.js"
   ]
 }
