@@ -8,13 +8,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("img/rassen.png");
+  /* background-image: url("img/rassen.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   font-family: "Kiwi Maru", "Zen Kaku Gothic New", sans-serif, serif;
   @media screen and (max-width: 768px) {
-    background-size: 100vw 33vh;
-    background-repeat: repeat;
+    /* background-size: 100vw 33vh;
+    background-repeat: repeat; */
   }
 }
 

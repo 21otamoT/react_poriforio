@@ -10,6 +10,7 @@ import Skill from "./components/skill";
 import Selfintroduction from "./components/Self-introduction";
 import AppLayout from "./components/AppLayout";
 import Home from "./components/Home";
+import Contact from "./components/Contact";
 // import Contact from './components/Contact';
 
 const App = () => {
@@ -33,7 +34,7 @@ const App = () => {
         ></Route>
         <Route path="/skill" element={<Skill />}></Route>
         <Route path="/about" element={<Selfintroduction />}></Route>
-        {/* <Route path="/contact" element={<Contact />}></Route> */}
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
       <Footer />
     </Router>

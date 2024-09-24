@@ -1,9 +1,8 @@
-.container#contact {
-  margin: 0;
-  @media screen and (min-width:768px) {
+/* .container#contact {
+  @media screen and (min-width: 768px) {
     transform: translate(30%, 0);
   }
-}
+} */
 
 .contact-list {
   width: 100%;
@@ -12,12 +11,12 @@
 }
 
 .contact-list div {
-  background-image: url('../img/Contact.png');
-  background-size:60%;
+  background-image: url("../img/Contact.png");
+  background-size: 60%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 20%;
-  background-position:30% center;
+  background-position: 30% center;
 }
 
 .contact-list div > h3 {
@@ -25,14 +24,14 @@
 }
 
 .line {
-  background: linear-gradient(to bottom, #fff, #fff,#00bfff 80%);
+  background: linear-gradient(to bottom, #fff, #fff, #00bfff 80%);
 }
 
 .twitter-tweet {
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .contact-list {
     flex-direction: column;
   }
@@ -41,4 +40,54 @@
     width: 100%;
     background-size: 100%;
   }
+}
+
+#contact {
+  background-image: url("../img/Contact.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+form > div {
+  margin-top: 12px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.required {
+  color: red;
+  font-size: 12px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 8px;
+  border: none;
+  border-bottom: 1px solid #000;
+  box-shadow: 2px 2px 4px #999;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 8px;
+  border: none;
+  border-bottom: 1px solid #000;
+  box-shadow: 2px 2px 4px #999;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn > button {
+  padding: 4px 8px;
+  border: 1px solid #00bfff;
+  background-color: #00bfff;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
 }

@@ -6,6 +6,7 @@ import {
   faLaptopCode,
   faSun,
   faImagePortrait,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Menu = () => {
@@ -47,7 +48,18 @@ const Menu = () => {
           About
         </NavLink>
       </li>
-      <li>{/* <Link to="/contact">お問い合わせ<br/>Contact</Link> */}</li>
+      <li>
+        <NavLink
+          to="/contact"
+          style={({ isActive }) =>
+            isActive ? { color: "rgb(244, 110, 202)" } : {}
+          }
+        >
+          お問い合わせ
+          <br />
+          Contact
+        </NavLink>
+      </li>
     </>
   );
 };
@@ -73,12 +85,10 @@ const Hmbarger = () => {
           <NavLink to="/about">自己紹介</NavLink>
           <FontAwesomeIcon icon={faImagePortrait} style={{ color: "white" }} />
         </li>
-        {/* <li>
-            <span className="material-symbols-outlined">
-              mail
-            </span>
-            <Link to="/contact">お問い合わせ</Link>
-          </li> */}
+        <li>
+          <NavLink to="/contact">お問い合わせ</NavLink>
+          <FontAwesomeIcon icon={faEnvelope} style={{ color: "white" }} />
+        </li>
       </ul>
       <div className="hmbtn" onClick={handleClick}>
         <span className={active}></span>
