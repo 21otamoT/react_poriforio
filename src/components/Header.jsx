@@ -103,7 +103,7 @@ const Header = () => {
   return (
     <header>
       <h1 className="home">
-        <NavLink to="/">
+        <NavLink to="/react_poriforio">
           <img src={logo} alt="logo" />
         </NavLink>
       </h1>

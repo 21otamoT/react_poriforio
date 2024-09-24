@@ -4,7 +4,7 @@ html {
 
 .container {
   max-width: 960px;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 12px;
 }
@@ -15,6 +15,13 @@ header {
   justify-content: space-around;
   align-items: center;
   background-image: url("img/rassen.png");
+}
+
+.home-display {
+  background-image: url("./img/rassen.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .home {

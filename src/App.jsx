@@ -27,7 +27,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<AppLayout />}></Route>
-        <Route index element={<Home />}></Route>
+        <Route path="/react_poriforio" element={<Home />}></Route>
         <Route
           path="/works"
           element={<Tabs tabs={tabs} content={content} />}
